@@ -314,7 +314,11 @@ function App() {
 
   useEffect(() => {
     csv('http://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv', (err, d: any) => {
-      if (err) setError(true)
+      if (err) {
+        // tslint:disable-next-line: no-console
+        console.error(err)
+        setError(true)
+      }
       else {
         const data: CountryStateDataType[] = d;
         const parseTime = timeParse('%d/%m/%Y');
