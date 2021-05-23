@@ -199,7 +199,7 @@ function App() {
     setWidth(window.innerWidth > 940 ? 900 : window.innerWidth - 40);
   })
   useEffect(() => {
-    text('https://api.covid19india.org/csv/latest/cowin_vaccine_data_districtwise.csv', (err, d) => {
+    text('http://api.covid19india.org/csv/latest/cowin_vaccine_data_districtwise.csv', (err, d) => {
       if (err) setError(true)
       else {
         const parseTime = timeParse('%d/%m/%Y');
@@ -318,7 +318,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    csv('https://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv', (err, d: any) => {
+    csv('http://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv', (err, d: any) => {
       if (err) {
         // tslint:disable-next-line: no-console
         console.error(err)
@@ -336,24 +336,25 @@ function App() {
             break;
           }
         }
-        const countryDataTemp: CountryStateFormattedDataType[] = _.dropRight(_.filter(data, (el: CountryStateDataType) => el.State === 'India'), countryFiltered.length - endIndex).map((el: CountryStateDataType) => {
+
+        const countryDataTemp: CountryStateFormattedDataType[] = _.dropRight(_.filter(data, (el: CountryStateDataType) => el.State === 'India'), endIndex === 0 ? 0 : countryFiltered.length - endIndex).map((el: CountryStateDataType) => {
           return {
-            '18-30 years (Age)': +el['18-30 years (Age)'],
-            '30-45 years (Age)': +el['30-45 years (Age)'],
-            '45-60 years (Age)': +el['45-60 years (Age)'],
-            '60+ years (Age)': +el['60+ years (Age)'],
-            AEFI: +el.AEFI,
-            'Female(Individuals Vaccinated)': +el['Female(Individuals Vaccinated)'],
-            'First Dose Administered': +el['First Dose Administered'],
-            'Male(Individuals Vaccinated)': +el['Male(Individuals Vaccinated)'],
-            'Second Dose Administered': +el['Second Dose Administered'],
-            'Total Covaxin Administered': +el['Total Covaxin Administered'],
-            'Total CoviShield Administered': +el['Total CoviShield Administered'],
-            'Total Doses Administered': +el['Total Doses Administered'],
-            'Total Individuals Vaccinated': +el['Total Individuals Vaccinated'],
-            'Total Sessions Conducted': +el['Total Sessions Conducted'],
-            'Total Sites ': +el['Total Sites '],
-            'Transgender(Individuals Vaccinated)': +el['Transgender(Individuals Vaccinated)'],
+            '18-30 years (Age)': el['18-30 years (Age)'] === '' ? 0 : +el['18-30 years (Age)'],
+            '30-45 years (Age)': el['30-45 years (Age)'] === '' ? 0 : +el['30-45 years (Age)'],
+            '45-60 years (Age)': el['45-60 years (Age)'] === '' ? 0 : +el['45-60 years (Age)'],
+            '60+ years (Age)': el['60+ years (Age)'] === '' ? 0 : +el['60+ years (Age)'],
+            AEFI: el.AEFI === '' ? 0 : +el.AEFI,
+            'Female(Individuals Vaccinated)': el['Female(Individuals Vaccinated)'] === '' ? 0 : +el['Female(Individuals Vaccinated)'],
+            'First Dose Administered': el['First Dose Administered'] === '' ? 0 : +el['First Dose Administered'],
+            'Male(Individuals Vaccinated)': el['Male(Individuals Vaccinated)'] === '' ? 0 : +el['Male(Individuals Vaccinated)'],
+            'Second Dose Administered': el['Second Dose Administered'] === '' ? 0 : +el['Second Dose Administered'],
+            'Total Covaxin Administered': el['Total Covaxin Administered'] === '' ? 0 : +el['Total Covaxin Administered'],
+            'Total CoviShield Administered': el['Total CoviShield Administered'] === '' ? 0 : +el['Total CoviShield Administered'],
+            'Total Doses Administered': el['Total Doses Administered'] === '' ? 0 : +el['Total Doses Administered'],
+            'Total Individuals Vaccinated': el['Total Individuals Vaccinated'] === '' ? 0 : +el['Total Individuals Vaccinated'],
+            'Total Sessions Conducted': el['Total Sessions Conducted'] === '' ? 0 : +el['Total Sessions Conducted'],
+            'Total Sites ': el['Total Sites '] === '' ? 0 : +el['Total Sites '],
+            'Transgender(Individuals Vaccinated)': el['Transgender(Individuals Vaccinated)'] === '' ? 0 : +el['Transgender(Individuals Vaccinated)'],
             'Date': parseTime(el['Updated On']) as Date,
           }
         })
@@ -415,7 +416,7 @@ function App() {
               break;
             }
           }
-          const stateDataTemp: CountryStateFormattedDataType[] = _.dropRight(_.filter(data, (el: CountryStateDataType) => el.State === state), stateFiltered.length - endIndexForState).map((el: CountryStateDataType) => {
+          const stateDataTemp: CountryStateFormattedDataType[] = _.dropRight(_.filter(data, (el: CountryStateDataType) => el.State === state), endIndexForState === 0 ? 0 : stateFiltered.length - endIndexForState).map((el: CountryStateDataType) => {
             return {
               '18-30 years (Age)': +el['18-30 years (Age)'],
               '30-45 years (Age)': +el['30-45 years (Age)'],
@@ -495,7 +496,6 @@ function App() {
       }
     })
   }, [])
-
   return (
     <>
       <GlobalStyle />

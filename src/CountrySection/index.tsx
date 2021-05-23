@@ -26,7 +26,7 @@ const CountrySection = (props: Props) => {
             {
               value: countryData[countryData.length - 1]['First Dose Administered'] - countryData[countryData.length - 1]['Second Dose Administered'],
               color: 'var(--primary-color-light)',
-              key: 'Vaccineated Only Once:',
+              key: 'Received 1 Dose:',
             },
             {
               value: countryData[countryData.length - 1]['Second Dose Administered'],
@@ -36,7 +36,7 @@ const CountrySection = (props: Props) => {
             {
               value: INDIAPOPULATION - countryData[countryData.length - 1]['First Dose Administered'],
               color: 'var(--light-gray)',
-              key: 'Not Vaccinated at all:',
+              key: 'Received No Doses:',
             },
           ]
         }
