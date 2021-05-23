@@ -10,7 +10,12 @@ import Loader from 'react-loader-spinner';
 import { DataType, CityDataType, CountryStateDataType, CountryStateFormattedDataType, StateDataType, CountryStateWithDeltaDataType } from './types';
 import CountrySection from './CountrySection';
 import { INDIAPOPULATION, STATES } from './Constants';
+import ReactGA from 'react-ga';
 import { FacebookIcon, TwitterIcon, FacebookShareButton, TwitterShareButton } from 'react-share';
+
+ReactGA.initialize('UA-197744587-1');
+ReactGA.set({ anonymizeIp: true });
+ReactGA.pageview('/');
 
 const GlobalStyle = createGlobalStyle`
   :root {
