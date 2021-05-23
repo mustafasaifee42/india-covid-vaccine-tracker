@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { text, csv } from 'd3-request';
 import { csvParseRows } from 'd3-dsv';
-import { timeParse } from 'd3-time-format';
+import { timeParse, timeFormat } from 'd3-time-format';
 import _ from 'lodash';
 import StateViz from './StateViz';
 import DistrictViz from './DistrictViz';
 import Loader from 'react-loader-spinner';
 import { DataType, CityDataType, CountryStateDataType, CountryStateFormattedDataType, StateDataType, CountryStateWithDeltaDataType } from './types';
 import CountrySection from './CountrySection';
-import { STATES } from './Constants';
+import { INDIAPOPULATION, STATES } from './Constants';
 import { FacebookIcon, TwitterIcon, FacebookShareButton, TwitterShareButton } from 'react-share';
 
 const GlobalStyle = createGlobalStyle`
@@ -189,6 +189,7 @@ function App() {
   const [countryData, setCountryData] = useState<CountryStateWithDeltaDataType[] | undefined>(undefined);
   const [error, setError] = useState(false);
   const [width, setWidth] = useState(window.innerWidth > 940 ? 900 : window.innerWidth - 40);
+  const formatTime = timeFormat('%B %d, %Y');
   window.addEventListener('resize', () => {
     setWidth(window.innerWidth > 940 ? 900 : window.innerWidth - 40);
   })
@@ -541,14 +542,26 @@ function App() {
           Please email me at <a href="mailto:saifee.mustafa@gmail.com" target="_blank" rel="noopener noreferrer">saifee.mustafa@gmail.com</a> or connect on <a href="https://twitter.com/mustafasaifee42" target="_blank" rel="noopener noreferrer">twitter</a> for suggestions or queries.
           <ShareDiv>
             <span className="footer-start">You got all the way down here, consider sharing the <span aria-label="love-emoji" role="img">💖</span></span>
-            <div className="icons">
-              <FacebookShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} quote={'See How Vaccinations for COVID-19 Are Going in State And Distrricts in India'}>
-                <FacebookIcon size={32} round={true} />
-              </FacebookShareButton>
-              <TwitterShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} title={'See How Vaccinations for COVID-19 Are Going in State And Distrricts in India https://india-covid-vaccine-tracker.mustafasaifee.com via @mustafasaifee42'}>
-                <TwitterIcon size={32} round={true} />
-              </TwitterShareButton>
-            </div>
+            {
+              countryData ? (
+                <div className="icons">
+                  <FacebookShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} quote={`In India, by ${formatTime(countryData[countryData.length - 1].Date)}, ${(countryData[countryData.length - 1]['First Dose Administered'] * 100 / INDIAPOPULATION).toFixed(1)}% of population have received atleast 1 dose of COVID vaccination.`}>
+                    <FacebookIcon size={32} round={true} />
+                  </FacebookShareButton>
+                  <TwitterShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} title={`In India, by ${formatTime(countryData[countryData.length - 1].Date)}, ${(countryData[countryData.length - 1]['First Dose Administered'] * 100 / INDIAPOPULATION).toFixed(1)}% of population have received atleast 1 dose of COVID vaccination. https://india-covid-vaccine-tracker.mustafasaifee.com via @mustafasaifee42`}>
+                    <TwitterIcon size={32} round={true} />
+                  </TwitterShareButton>
+                </div>
+              ) : (
+                <div className="icons">
+                  <FacebookShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} quote={'See How Vaccinations for COVID-19 Are Going in State And Districts in India'}>
+                    <FacebookIcon size={32} round={true} />
+                  </FacebookShareButton>
+                  <TwitterShareButton url={'https://india-covid-vaccine-tracker.mustafasaifee.com'} title={'See How Vaccinations for COVID-19 Are Going in State And Districts in India https://india-covid-vaccine-tracker.mustafasaifee.com via @mustafasaifee42'}>
+                    <TwitterIcon size={32} round={true} />
+                  </TwitterShareButton>
+                </div>
+              )}
           </ShareDiv>
         </EmailDiv>
         <FooterContainer>
