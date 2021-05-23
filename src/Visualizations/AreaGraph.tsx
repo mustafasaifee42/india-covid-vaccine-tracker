@@ -176,17 +176,16 @@ const AreaGraph = (props: Props) => {
       <Keys>
         <Legend>
           <SquareDiv style={{ backgroundColor: '#00aeff' }} />
-          <LegendText>Sputnik V Doses</LegendText>
+          <LegendText>Sputnik V Doses: <span className="bold">{(data[data.length - 1]['Total Sputnik V Administered'] * 100 / (data[data.length - 1]['Total Sputnik V Administered'] + data[data.length - 1]['Total Covaxin Administered'] + data[data.length - 1]['Total CoviShield Administered'])).toFixed(2)}%</span></LegendText>
         </Legend>
 
         <Legend>
           <SquareDiv style={{ backgroundColor: '#ffc400' }} />
-          <LegendText>Covaxin Doses</LegendText>
+          <LegendText>Covaxin Doses: <span className="bold">{(data[data.length - 1]['Total Covaxin Administered'] * 100 / (data[data.length - 1]['Total Sputnik V Administered'] + data[data.length - 1]['Total Covaxin Administered'] + data[data.length - 1]['Total CoviShield Administered'])).toFixed(2)}%</span></LegendText>
         </Legend>
-
         <Legend>
           <SquareDiv style={{ backgroundColor: 'var(--primary-color)' }} />
-          <LegendText>Covishield Doses</LegendText>
+          <LegendText>Covishield Doses: <span className="bold">{(data[data.length - 1]['Total CoviShield Administered'] * 100 / (data[data.length - 1]['Total Sputnik V Administered'] + data[data.length - 1]['Total Covaxin Administered'] + data[data.length - 1]['Total CoviShield Administered'])).toFixed(2)}%</span></LegendText>
         </Legend>
       </Keys>
       <svg width={windowWidth} height={(windowWidth * 400 / 900)} ref={ManufacturingGraph} viewBox={'0 0 900 400'}></svg>

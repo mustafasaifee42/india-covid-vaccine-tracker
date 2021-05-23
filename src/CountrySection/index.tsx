@@ -115,7 +115,10 @@ const CountrySection = (props: Props) => {
     <br />
     <br />
     <div className="container">
-      India has so far given doses of two approved vaccines - Covaxin and Covishield. Covaxin has been developed by Hyderabad-based Bharat Biotech International Ltd in association with the Indian Council of Medical Research (ICMR) and the National Institute of Virology (NIV). Covishield has been developed by the Oxford-AstraZeneca and is being manufactured by the Serum Institute of India (SII).
+      India has so far given doses of three approved vaccines - CoviShield, Covaxin, and Sputnik V. CoviShield has been developed by the Oxford-AstraZeneca and is being manufactured by the Serum Institute of India (SII). Covaxin has been developed by Hyderabad-based Bharat Biotech International Ltd in association with the Indian Council of Medical Research (ICMR) and the National Institute of Virology (NIV). Sputnik V is developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia.
+      <br />
+      <br />
+      India till now has administered <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total CoviShield Administered'])}</span> doses of CoviShield, <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Covaxin Administered'])}</span> doses of Covaxin and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Sputnik V Administered'])}</span> doses of Sputnuk V.
     </div>
     <br />
     <AreaGraph

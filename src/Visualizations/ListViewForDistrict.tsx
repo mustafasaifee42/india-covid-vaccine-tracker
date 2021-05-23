@@ -153,7 +153,7 @@ const ListViewForStates = (props: Props) => {
     title,
   } = props;
   const [showMore, setShowMore] = useState(true);
-  const [sortedBy, setSortedBy] = useState('TotalDosesGiven');
+  const [sortedBy, setSortedBy] = useState('PercentFirstDose');
   const [ascending, setAscending] = useState(false);
   return (
     <>
