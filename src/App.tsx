@@ -199,7 +199,7 @@ function App() {
     setWidth(window.innerWidth > 940 ? 900 : window.innerWidth - 40);
   })
   useEffect(() => {
-    text('http://api.covid19india.org/csv/latest/cowin_vaccine_data_districtwise.csv', (err, d) => {
+    text('https://api.covid19india.org/csv/latest/cowin_vaccine_data_districtwise.csv', (err, d) => {
       if (err) setError(true)
       else {
         const parseTime = timeParse('%d/%m/%Y');
@@ -318,7 +318,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    csv('http://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv', (err, d: any) => {
+    csv('https://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv', (err, d: any) => {
       if (err) {
         // tslint:disable-next-line: no-console
         console.error(err)
