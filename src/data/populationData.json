@@ -1,0 +1,4418 @@
+[
+    {
+        "State_Name": "Andaman and Nicobar Islands",
+        "District_Name": "Nicobars",
+        "State_Letter_Code": "AN",
+        "District_Population": 41239
+    },
+    {
+        "State_Name": "Andaman and Nicobar Islands",
+        "District_Name": "South Andaman",
+        "State_Letter_Code": "AN",
+        "District_Population": 222745
+    },
+    {
+        "State_Name": "Andaman and Nicobar Islands",
+        "District_Name": "North and Middle Andaman",
+        "State_Letter_Code": "AN",
+        "District_Population": 166970
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Anantapur",
+        "State_Letter_Code": "AP",
+        "District_Population": 4656080
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Chittoor",
+        "State_Letter_Code": "AP",
+        "District_Population": 4758542
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Y.S.R. Kadapa",
+        "State_Letter_Code": "AP",
+        "District_Population": 3288930
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "East Godavari",
+        "State_Letter_Code": "AP",
+        "District_Population": 6021109
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Guntur",
+        "State_Letter_Code": "AP",
+        "District_Population": 5685244
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Krishna",
+        "State_Letter_Code": "AP",
+        "District_Population": 5059579
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Kurnool",
+        "State_Letter_Code": "AP",
+        "District_Population": 4622241
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "S.P.S. Nellore",
+        "State_Letter_Code": "AP",
+        "District_Population": 3330680
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Prakasam",
+        "State_Letter_Code": "AP",
+        "District_Population": 3893718
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Srikakulam",
+        "State_Letter_Code": "AP",
+        "District_Population": 3085581
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Visakhapatnam",
+        "State_Letter_Code": "AP",
+        "District_Population": 4867313
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "Vizianagaram",
+        "State_Letter_Code": "AP",
+        "District_Population": 2638442
+    },
+    {
+        "State_Name": "Andhra Pradesh",
+        "District_Name": "West Godavari",
+        "State_Letter_Code": "AP",
+        "District_Population": 4590242
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Anjaw",
+        "State_Letter_Code": "AR",
+        "District_Population": 37830
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Changlang",
+        "State_Letter_Code": "AR",
+        "District_Population": 169889
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Upper Dibang Valley",
+        "State_Letter_Code": "AR",
+        "District_Population": 13781
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "East Kameng",
+        "State_Letter_Code": "AR",
+        "District_Population": 55710
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "East Siang",
+        "State_Letter_Code": "AR",
+        "District_Population": 91056
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Kurung Kumey",
+        "State_Letter_Code": "AR",
+        "District_Population": 79863
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Lohit",
+        "State_Letter_Code": "AR",
+        "District_Population": 67969
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Lower Dibang Valley",
+        "State_Letter_Code": "AR",
+        "District_Population": 60681
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Papum Pare",
+        "State_Letter_Code": "AR",
+        "District_Population": 213150
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Tawang",
+        "State_Letter_Code": "AR",
+        "District_Population": 56518
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Tirap",
+        "State_Letter_Code": "AR",
+        "District_Population": 65075
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Upper Siang",
+        "State_Letter_Code": "AR",
+        "District_Population": 38309
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Upper Subansiri",
+        "State_Letter_Code": "AR",
+        "District_Population": 93398
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "West Kameng",
+        "State_Letter_Code": "AR",
+        "District_Population": 87626
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Siang",
+        "State_Letter_Code": "AR",
+        "District_Population": 39840
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Namsai",
+        "State_Letter_Code": "AR",
+        "District_Population": 84847
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Lower Siang",
+        "State_Letter_Code": "AR",
+        "District_Population": 40428
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Kamle",
+        "State_Letter_Code": "AR",
+        "District_Population": 20543
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Lower Subansiri",
+        "State_Letter_Code": "AR",
+        "District_Population": 57017
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Pakke Kessang",
+        "State_Letter_Code": "AR",
+        "District_Population": 45474
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Kra Daadi",
+        "State_Letter_Code": "AR",
+        "District_Population": 35171
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Lepa Rada",
+        "State_Letter_Code": "AR",
+        "District_Population": 19841
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "West Siang",
+        "State_Letter_Code": "AR",
+        "District_Population": 37622
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Shi Yomi",
+        "State_Letter_Code": "AR",
+        "District_Population": 24948
+    },
+    {
+        "State_Name": "Arunachal Pradesh",
+        "District_Name": "Longding",
+        "State_Letter_Code": "AR",
+        "District_Population": 55901
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Baksa",
+        "State_Letter_Code": "AS",
+        "District_Population": 1435685
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Barpeta",
+        "State_Letter_Code": "AS",
+        "District_Population": 1522860
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Bongaigaon",
+        "State_Letter_Code": "AS",
+        "District_Population": 765186
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Cachar",
+        "State_Letter_Code": "AS",
+        "District_Population": 1994048
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Chirang",
+        "State_Letter_Code": "AS",
+        "District_Population": 807430
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Darrang",
+        "State_Letter_Code": "AS",
+        "District_Population": 1007625
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Dhemaji",
+        "State_Letter_Code": "AS",
+        "District_Population": 804783
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Dhubri",
+        "State_Letter_Code": "AS",
+        "District_Population": 1406706
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Dibrugarh",
+        "State_Letter_Code": "AS",
+        "District_Population": 1529475
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Goalpara",
+        "State_Letter_Code": "AS",
+        "District_Population": 1190263
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Golaghat",
+        "State_Letter_Code": "AS",
+        "District_Population": 1218100
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Hailakandi",
+        "State_Letter_Code": "AS",
+        "District_Population": 748425
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Jorhat",
+        "State_Letter_Code": "AS",
+        "District_Population": 991062
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Kamrup",
+        "State_Letter_Code": "AS",
+        "District_Population": 1870005
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Kamrup Metropolitan",
+        "State_Letter_Code": "AS",
+        "District_Population": 1174315
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "West Karbi Anglong",
+        "State_Letter_Code": "AS",
+        "District_Population": 355838
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Karimganj",
+        "State_Letter_Code": "AS",
+        "District_Population": 1381010
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Kokrajhar",
+        "State_Letter_Code": "AS",
+        "District_Population": 1107406
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Lakhimpur",
+        "State_Letter_Code": "AS",
+        "District_Population": 1174826
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Morigaon",
+        "State_Letter_Code": "AS",
+        "District_Population": 1101464
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Nagaon",
+        "State_Letter_Code": "AS",
+        "District_Population": 2182768
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Nalbari",
+        "State_Letter_Code": "AS",
+        "District_Population": 1065823
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Dima Hasao",
+        "State_Letter_Code": "AS",
+        "District_Population": 244306
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Sivasagar",
+        "State_Letter_Code": "AS",
+        "District_Population": 847916
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Sonitpur",
+        "State_Letter_Code": "AS",
+        "District_Population": 1469218
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Tinsukia",
+        "State_Letter_Code": "AS",
+        "District_Population": 1502277
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Udalguri",
+        "State_Letter_Code": "AS",
+        "District_Population": 1017856
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Charaideo",
+        "State_Letter_Code": "AS",
+        "District_Population": 459643
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Majuli",
+        "State_Letter_Code": "AS",
+        "District_Population": 250844
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Biswanath",
+        "State_Letter_Code": "AS",
+        "District_Population": 697309
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Hojai",
+        "State_Letter_Code": "AS",
+        "District_Population": 1029265
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "Karbi Anglong",
+        "State_Letter_Code": "AS",
+        "District_Population": 757150
+    },
+    {
+        "State_Name": "Assam",
+        "District_Name": "South Salmara Mankachar",
+        "State_Letter_Code": "AS",
+        "District_Population": 505027
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Araria",
+        "State_Letter_Code": "BR",
+        "District_Population": 3171880
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Aurangabad",
+        "State_Letter_Code": "BR",
+        "District_Population": 2884600
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Banka",
+        "State_Letter_Code": "BR",
+        "District_Population": 2345816
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Begusarai",
+        "State_Letter_Code": "BR",
+        "District_Population": 3381509
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Bhagalpur",
+        "State_Letter_Code": "BR",
+        "District_Population": 3430581
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Bhojpur",
+        "State_Letter_Code": "BR",
+        "District_Population": 3085578
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Buxar",
+        "State_Letter_Code": "BR",
+        "District_Population": 1969832
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Darbhanga",
+        "State_Letter_Code": "BR",
+        "District_Population": 4500468
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Gaya",
+        "State_Letter_Code": "BR",
+        "District_Population": 5008514
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Gopalganj",
+        "State_Letter_Code": "BR",
+        "District_Population": 2920129
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Jamui",
+        "State_Letter_Code": "BR",
+        "District_Population": 1973831
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Kaimur",
+        "State_Letter_Code": "BR",
+        "District_Population": 1877421
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Katihar",
+        "State_Letter_Code": "BR",
+        "District_Population": 3510433
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Khagaria",
+        "State_Letter_Code": "BR",
+        "District_Population": 1870642
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Kishanganj",
+        "State_Letter_Code": "BR",
+        "District_Population": 1932115
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Lakhisarai",
+        "State_Letter_Code": "BR",
+        "District_Population": 1059251
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Madhepura",
+        "State_Letter_Code": "BR",
+        "District_Population": 2281932
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Madhubani",
+        "State_Letter_Code": "BR",
+        "District_Population": 5070991
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Munger",
+        "State_Letter_Code": "BR",
+        "District_Population": 1616377
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Muzaffarpur",
+        "State_Letter_Code": "BR",
+        "District_Population": 5474687
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Nalanda",
+        "State_Letter_Code": "BR",
+        "District_Population": 3275008
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Nawada",
+        "State_Letter_Code": "BR",
+        "District_Population": 2516129
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "West Champaran",
+        "State_Letter_Code": "BR",
+        "District_Population": 4481911
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Patna",
+        "State_Letter_Code": "BR",
+        "District_Population": 6610080
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "East Champaran",
+        "State_Letter_Code": "BR",
+        "District_Population": 5800154
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Purnia",
+        "State_Letter_Code": "BR",
+        "District_Population": 3731569
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Rohtas",
+        "State_Letter_Code": "BR",
+        "District_Population": 3372895
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Saharsa",
+        "State_Letter_Code": "BR",
+        "District_Population": 2179593
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Samastipur",
+        "State_Letter_Code": "BR",
+        "District_Population": 4795067
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Saran",
+        "State_Letter_Code": "BR",
+        "District_Population": 4472074
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Sheikhpura",
+        "State_Letter_Code": "BR",
+        "District_Population": 797397
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Sheohar",
+        "State_Letter_Code": "BR",
+        "District_Population": 547358
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Sitamarhi",
+        "State_Letter_Code": "BR",
+        "District_Population": 4068565
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Siwan",
+        "State_Letter_Code": "BR",
+        "District_Population": 3788840
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Supaul",
+        "State_Letter_Code": "BR",
+        "District_Population": 2548604
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Vaishali",
+        "State_Letter_Code": "BR",
+        "District_Population": 4003465
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Arwal",
+        "State_Letter_Code": "BR",
+        "District_Population": 815113
+    },
+    {
+        "State_Name": "Bihar",
+        "District_Name": "Jehanabad",
+        "State_Letter_Code": "BR",
+        "District_Population": 1277502
+    },
+    {
+        "State_Name": "Chandigarh",
+        "District_Name": "Chandigarh",
+        "State_Letter_Code": "CH",
+        "District_Population": 1167914
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Bastar",
+        "State_Letter_Code": "CG",
+        "District_Population": 961795
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Bijapur",
+        "State_Letter_Code": "CG",
+        "District_Population": 344026
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Bilaspur",
+        "State_Letter_Code": "CG",
+        "District_Population": 1806513
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Gaurela Pendra Marwahi",
+        "State_Letter_Code": "CG",
+        "District_Population": 507806
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Sukma",
+        "State_Letter_Code": "CG",
+        "District_Population": 319056
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Dhamtari",
+        "State_Letter_Code": "CG",
+        "District_Population": 910973
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Bametara",
+        "State_Letter_Code": "CG",
+        "District_Population": 928172
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Janjgir Champa",
+        "State_Letter_Code": "CG",
+        "District_Population": 1843330
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Jashpur",
+        "State_Letter_Code": "CG",
+        "District_Population": 971849
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Uttar Bastar Kanker",
+        "State_Letter_Code": "CG",
+        "District_Population": 854331
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Korba",
+        "State_Letter_Code": "CG",
+        "District_Population": 1377425
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Koriya",
+        "State_Letter_Code": "CG",
+        "District_Population": 753699
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Mahasamund",
+        "State_Letter_Code": "CG",
+        "District_Population": 1174412
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Narayanpur",
+        "State_Letter_Code": "CG",
+        "District_Population": 208595
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Raigarh",
+        "State_Letter_Code": "CG",
+        "District_Population": 1706097
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Gariaband",
+        "State_Letter_Code": "CG",
+        "District_Population": 867589
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Rajnandgaon",
+        "State_Letter_Code": "CG",
+        "District_Population": 1773222
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Surguja",
+        "State_Letter_Code": "CG",
+        "District_Population": 933645
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Kabeerdham",
+        "State_Letter_Code": "CG",
+        "District_Population": 947635
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Dakshin Bastar Dantewada",
+        "State_Letter_Code": "CG",
+        "District_Population": 254637
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Balod",
+        "State_Letter_Code": "CG",
+        "District_Population": 937037
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Surajpur",
+        "State_Letter_Code": "CG",
+        "District_Population": 917233
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Balrampur",
+        "State_Letter_Code": "CG",
+        "District_Population": 847183
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Mungeli",
+        "State_Letter_Code": "CG",
+        "District_Population": 725376
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Baloda Bazar",
+        "State_Letter_Code": "CG",
+        "District_Population": 1485896
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Raipur",
+        "State_Letter_Code": "CG",
+        "District_Population": 2272626
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Durg",
+        "State_Letter_Code": "CG",
+        "District_Population": 1968756
+    },
+    {
+        "State_Name": "Chhattisgarh",
+        "District_Name": "Kondagaon",
+        "State_Letter_Code": "CG",
+        "District_Population": 613065
+    },
+    {
+        "State_Name": "Dadra and Nagar Haveli and Daman and Diu",
+        "District_Name": "Dadra and Nagar Haveli",
+        "State_Letter_Code": "DNHDD",
+        "District_Population": 285434
+    },
+    {
+        "State_Name": "Dadra and Nagar Haveli and Daman and Diu",
+        "District_Name": "Daman",
+        "State_Letter_Code": "DNHDD",
+        "District_Population": 234893
+    },
+    {
+        "State_Name": "Dadra and Nagar Haveli and Daman and Diu",
+        "District_Name": "Diu",
+        "State_Letter_Code": "DNHDD",
+        "District_Population": 58118
+    },
+    {
+        "State_Name": "Goa",
+        "District_Name": "North Goa",
+        "State_Letter_Code": "GA",
+        "District_Population": 775940
+    },
+    {
+        "State_Name": "Goa",
+        "District_Name": "South Goa",
+        "State_Letter_Code": "GA",
+        "District_Population": 874715
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Ahmedabad",
+        "State_Letter_Code": "GJ",
+        "District_Population": 7824749
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Amreli",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1743985
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Anand",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2379636
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Banaskantha",
+        "State_Letter_Code": "GJ",
+        "District_Population": 3546820
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Bharuch",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1771078
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Dahod",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1700817
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Gandhinagar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1842877
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Jamnagar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1598478
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Junagadh",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1863055
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Kutch",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2374288
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Kheda",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2386828
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Mehsana",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2260661
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Narmada",
+        "State_Letter_Code": "GJ",
+        "District_Population": 779394
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Navsari",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1538947
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Panchmahal",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2378763
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Patan",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1382988
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Porbandar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 656444
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Rajkot",
+        "State_Letter_Code": "GJ",
+        "District_Population": 3277324
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Sabarkantha",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1598001
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Surat",
+        "State_Letter_Code": "GJ",
+        "District_Population": 6235544
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Surendranagar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1783762
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Dang",
+        "State_Letter_Code": "GJ",
+        "District_Population": 275661
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Vadodara",
+        "State_Letter_Code": "GJ",
+        "District_Population": 3529716
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Valsad",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1796553
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Tapi",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1585031
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Devbhumi Dwarka",
+        "State_Letter_Code": "GJ",
+        "District_Population": 820577
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Morbi",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1266566
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Botad",
+        "State_Letter_Code": "GJ",
+        "District_Population": 969724
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Aravalli",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1173675
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Mahisagar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1327256
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Chhota Udaipur",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1154612
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Gir Somnath",
+        "State_Letter_Code": "GJ",
+        "District_Population": 1277654
+    },
+    {
+        "State_Name": "Gujarat",
+        "District_Name": "Bhavnagar",
+        "State_Letter_Code": "GJ",
+        "District_Population": 2726849
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Ambala",
+        "State_Letter_Code": "HR",
+        "District_Population": 1203619
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Bhiwani",
+        "State_Letter_Code": "HR",
+        "District_Population": 1304563
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Faridabad",
+        "State_Letter_Code": "HR",
+        "District_Population": 2166834
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Fatehabad",
+        "State_Letter_Code": "HR",
+        "District_Population": 1098947
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Gurugram",
+        "State_Letter_Code": "HR",
+        "District_Population": 2107226
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Hisar",
+        "State_Letter_Code": "HR",
+        "District_Population": 1999784
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Jhajjar",
+        "State_Letter_Code": "HR",
+        "District_Population": 1096449
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Kaithal",
+        "State_Letter_Code": "HR",
+        "District_Population": 1217882
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Karnal",
+        "State_Letter_Code": "HR",
+        "District_Population": 1773323
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Kurukshetra",
+        "State_Letter_Code": "HR",
+        "District_Population": 981521
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Mahendragarh",
+        "State_Letter_Code": "HR",
+        "District_Population": 1055160
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Nuh",
+        "State_Letter_Code": "HR",
+        "District_Population": 872216
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Palwal",
+        "State_Letter_Code": "HR",
+        "District_Population": 1014261
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Panchkula",
+        "State_Letter_Code": "HR",
+        "District_Population": 604100
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Panipat",
+        "State_Letter_Code": "HR",
+        "District_Population": 1378229
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Rewari",
+        "State_Letter_Code": "HR",
+        "District_Population": 1175317
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Rohtak",
+        "State_Letter_Code": "HR",
+        "District_Population": 1232450
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Sirsa",
+        "State_Letter_Code": "HR",
+        "District_Population": 1475184
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Sonipat",
+        "State_Letter_Code": "HR",
+        "District_Population": 1724379
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Yamunanagar",
+        "State_Letter_Code": "HR",
+        "District_Population": 1633261
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Jind",
+        "State_Letter_Code": "HR",
+        "District_Population": 1502258
+    },
+    {
+        "State_Name": "Haryana",
+        "District_Name": "Charkhi Dadri",
+        "State_Letter_Code": "HR",
+        "District_Population": 559068
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Bilaspur",
+        "State_Letter_Code": "HP",
+        "District_Population": 431932
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Chamba",
+        "State_Letter_Code": "HP",
+        "District_Population": 575457
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Hamirpur",
+        "State_Letter_Code": "HP",
+        "District_Population": 514414
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Kangra",
+        "State_Letter_Code": "HP",
+        "District_Population": 1693920
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Kinnaur",
+        "State_Letter_Code": "HP",
+        "District_Population": 95791
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Kullu",
+        "State_Letter_Code": "HP",
+        "District_Population": 505618
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Lahaul and Spiti",
+        "State_Letter_Code": "HP",
+        "District_Population": 36452
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Mandi",
+        "State_Letter_Code": "HP",
+        "District_Population": 1115259
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Shimla",
+        "State_Letter_Code": "HP",
+        "District_Population": 894568
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Sirmaur",
+        "State_Letter_Code": "HP",
+        "District_Population": 628008
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Solan",
+        "State_Letter_Code": "HP",
+        "District_Population": 641610
+    },
+    {
+        "State_Name": "Himachal Pradesh",
+        "District_Name": "Una",
+        "State_Letter_Code": "HP",
+        "District_Population": 615879
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Anantnag",
+        "State_Letter_Code": "JK",
+        "District_Population": 1479204
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Budgam",
+        "State_Letter_Code": "JK",
+        "District_Population": 521644
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Bandipora",
+        "State_Letter_Code": "JK",
+        "District_Population": 359326
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Baramulla",
+        "State_Letter_Code": "JK",
+        "District_Population": 958209
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Doda",
+        "State_Letter_Code": "JK",
+        "District_Population": 392180
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Ganderbal",
+        "State_Letter_Code": "JK",
+        "District_Population": 1458758
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Jammu",
+        "State_Letter_Code": "JK",
+        "District_Population": 1545994
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Kathua",
+        "State_Letter_Code": "JK",
+        "District_Population": 782825
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Kishtwar",
+        "State_Letter_Code": "JK",
+        "District_Population": 580918
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Kulgam",
+        "State_Letter_Code": "JK",
+        "District_Population": 475958
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Kupwara",
+        "State_Letter_Code": "JK",
+        "District_Population": 842360
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Pulwama",
+        "State_Letter_Code": "JK",
+        "District_Population": 709405
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Punch",
+        "State_Letter_Code": "JK",
+        "District_Population": 356645
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Rajouri",
+        "State_Letter_Code": "JK",
+        "District_Population": 633618
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Ramban",
+        "State_Letter_Code": "JK",
+        "District_Population": 260878
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Reasi",
+        "State_Letter_Code": "JK",
+        "District_Population": 451479
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Samba",
+        "State_Letter_Code": "JK",
+        "District_Population": 441902
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Shopiyan",
+        "State_Letter_Code": "JK",
+        "District_Population": 353823
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Udhampur",
+        "State_Letter_Code": "JK",
+        "District_Population": 580049
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Mirpur",
+        "State_Letter_Code": "JK",
+        "District_Population": 10509
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Muzaffarabad",
+        "State_Letter_Code": "JK",
+        "District_Population": 57969
+    },
+    {
+        "State_Name": "Jammu and Kashmir",
+        "District_Name": "Srinagar",
+        "State_Letter_Code": "JK",
+        "District_Population": 722659
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Bokaro",
+        "State_Letter_Code": "JH",
+        "District_Population": 2311024
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Chatra",
+        "State_Letter_Code": "JH",
+        "District_Population": 1185759
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Deoghar",
+        "State_Letter_Code": "JH",
+        "District_Population": 1693671
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Dhanbad",
+        "State_Letter_Code": "JH",
+        "District_Population": 3105617
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Dumka",
+        "State_Letter_Code": "JH",
+        "District_Population": 1509789
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Garhwa",
+        "State_Letter_Code": "JH",
+        "District_Population": 1520832
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Giridih",
+        "State_Letter_Code": "JH",
+        "District_Population": 2797368
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Godda",
+        "State_Letter_Code": "JH",
+        "District_Population": 1475675
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Gumla",
+        "State_Letter_Code": "JH",
+        "District_Population": 1175358
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Hazaribagh",
+        "State_Letter_Code": "JH",
+        "District_Population": 1195942
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Jamtara",
+        "State_Letter_Code": "JH",
+        "District_Population": 1490558
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Khunti",
+        "State_Letter_Code": "JH",
+        "District_Population": 683229
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Koderma",
+        "State_Letter_Code": "JH",
+        "District_Population": 892088
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Latehar",
+        "State_Letter_Code": "JH",
+        "District_Population": 833669
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Lohardaga",
+        "State_Letter_Code": "JH",
+        "District_Population": 532473
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Pakur",
+        "State_Letter_Code": "JH",
+        "District_Population": 1049604
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Palamu",
+        "State_Letter_Code": "JH",
+        "District_Population": 2191521
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "West Singhbhum",
+        "State_Letter_Code": "JH",
+        "District_Population": 1714238
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "East Singhbhum",
+        "State_Letter_Code": "JH",
+        "District_Population": 3650126
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Ramgarh",
+        "State_Letter_Code": "JH",
+        "District_Population": 729157
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Ranchi",
+        "State_Letter_Code": "JH",
+        "District_Population": 2645619
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Sahibganj",
+        "State_Letter_Code": "JH",
+        "District_Population": 1320135
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Saraikela-Kharsawan",
+        "State_Letter_Code": "JH",
+        "District_Population": 1268486
+    },
+    {
+        "State_Name": "Jharkhand",
+        "District_Name": "Simdega",
+        "State_Letter_Code": "JH",
+        "District_Population": 683375
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Bagalkote",
+        "State_Letter_Code": "KA",
+        "District_Population": 2162767
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Bengaluru Rural",
+        "State_Letter_Code": "KA",
+        "District_Population": 1070778
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Bengaluru Urban",
+        "State_Letter_Code": "KA",
+        "District_Population": 10906537
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Belagavi",
+        "State_Letter_Code": "KA",
+        "District_Population": 5485647
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Ballari",
+        "State_Letter_Code": "KA",
+        "District_Population": 2901228
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Bidar",
+        "State_Letter_Code": "KA",
+        "District_Population": 1950251
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Vijayapura",
+        "State_Letter_Code": "KA",
+        "District_Population": 2497458
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Chamarajanagara",
+        "State_Letter_Code": "KA",
+        "District_Population": 1179259
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Chikkaballapura",
+        "State_Letter_Code": "KA",
+        "District_Population": 1458347
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Chikkamagaluru",
+        "State_Letter_Code": "KA",
+        "District_Population": 1308690
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Chitradurga",
+        "State_Letter_Code": "KA",
+        "District_Population": 1906751
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Dakshina Kannada",
+        "State_Letter_Code": "KA",
+        "District_Population": 2505903
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Davanagere",
+        "State_Letter_Code": "KA",
+        "District_Population": 1902363
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Dharwad",
+        "State_Letter_Code": "KA",
+        "District_Population": 2112908
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Gadag",
+        "State_Letter_Code": "KA",
+        "District_Population": 1223567
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Kalaburagi",
+        "State_Letter_Code": "KA",
+        "District_Population": 2970086
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Hassan",
+        "State_Letter_Code": "KA",
+        "District_Population": 2036830
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Haveri",
+        "State_Letter_Code": "KA",
+        "District_Population": 1827399
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Kodagu",
+        "State_Letter_Code": "KA",
+        "District_Population": 641823
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Kolar",
+        "State_Letter_Code": "KA",
+        "District_Population": 1696775
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Koppal",
+        "State_Letter_Code": "KA",
+        "District_Population": 1593174
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Mandya",
+        "State_Letter_Code": "KA",
+        "District_Population": 2054957
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Mysuru",
+        "State_Letter_Code": "KA",
+        "District_Population": 3448486
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Raichur",
+        "State_Letter_Code": "KA",
+        "District_Population": 2196279
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Ramanagara",
+        "State_Letter_Code": "KA",
+        "District_Population": 1377769
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Shivamogga",
+        "State_Letter_Code": "KA",
+        "District_Population": 2342356
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Tumakuru",
+        "State_Letter_Code": "KA",
+        "District_Population": 3079664
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Udupi",
+        "State_Letter_Code": "KA",
+        "District_Population": 1191605
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Uttara Kannada",
+        "State_Letter_Code": "KA",
+        "District_Population": 1609892
+    },
+    {
+        "State_Name": "Karnataka",
+        "District_Name": "Yadgir",
+        "State_Letter_Code": "KA",
+        "District_Population": 1313298
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Alappuzha",
+        "State_Letter_Code": "KL",
+        "District_Population": 2461157
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Ernakulam",
+        "State_Letter_Code": "KL",
+        "District_Population": 3824019
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Idukki",
+        "State_Letter_Code": "KL",
+        "District_Population": 1186645
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Kannur",
+        "State_Letter_Code": "KL",
+        "District_Population": 2875289
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Kasaragod",
+        "State_Letter_Code": "KL",
+        "District_Population": 1463112
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Kollam",
+        "State_Letter_Code": "KL",
+        "District_Population": 3029532
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Kottayam",
+        "State_Letter_Code": "KL",
+        "District_Population": 2279187
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Kozhikode",
+        "State_Letter_Code": "KL",
+        "District_Population": 3526865
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Malappuram",
+        "State_Letter_Code": "KL",
+        "District_Population": 4688427
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Palakkad",
+        "State_Letter_Code": "KL",
+        "District_Population": 3184977
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Pathanamthitta",
+        "State_Letter_Code": "KL",
+        "District_Population": 1308001
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Thiruvananthapuram",
+        "State_Letter_Code": "KL",
+        "District_Population": 3828621
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Thrissur",
+        "State_Letter_Code": "KL",
+        "District_Population": 3602135
+    },
+    {
+        "State_Name": "Kerala",
+        "District_Name": "Wayanad",
+        "State_Letter_Code": "KL",
+        "District_Population": 928040
+    },
+    {
+        "State_Name": "Ladakh",
+        "District_Name": "Kargil",
+        "State_Letter_Code": "LEH",
+        "District_Population": 182518
+    },
+    {
+        "State_Name": "Ladakh",
+        "District_Name": "Leh",
+        "State_Letter_Code": "LEH",
+        "District_Population": 206653
+    },
+    {
+        "State_Name": "Lakshadweep",
+        "District_Name": "Lakshadweep",
+        "State_Letter_Code": "LD",
+        "District_Population": 64889
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Alirajpur",
+        "State_Letter_Code": "MP",
+        "District_Population": 867255
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Anuppur",
+        "State_Letter_Code": "MP",
+        "District_Population": 986893
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Ashoknagar",
+        "State_Letter_Code": "MP",
+        "District_Population": 962891
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Balaghat",
+        "State_Letter_Code": "MP",
+        "District_Population": 1933093
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Barwani",
+        "State_Letter_Code": "MP",
+        "District_Population": 1590258
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Betul",
+        "State_Letter_Code": "MP",
+        "District_Population": 1803840
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Bhind",
+        "State_Letter_Code": "MP",
+        "District_Population": 1943860
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Bhopal",
+        "State_Letter_Code": "MP",
+        "District_Population": 2703213
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Burhanpur",
+        "State_Letter_Code": "MP",
+        "District_Population": 865770
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Chhatarpur",
+        "State_Letter_Code": "MP",
+        "District_Population": 1990916
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Chhindwara",
+        "State_Letter_Code": "MP",
+        "District_Population": 2391749
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Damoh",
+        "State_Letter_Code": "MP",
+        "District_Population": 1454562
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Datia",
+        "State_Letter_Code": "MP",
+        "District_Population": 907166
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Dewas",
+        "State_Letter_Code": "MP",
+        "District_Population": 1786858
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Dhar",
+        "State_Letter_Code": "MP",
+        "District_Population": 2500665
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Dindori",
+        "State_Letter_Code": "MP",
+        "District_Population": 745662
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Khandwa",
+        "State_Letter_Code": "MP",
+        "District_Population": 1500327
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Guna",
+        "State_Letter_Code": "MP",
+        "District_Population": 1421207
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Harda",
+        "State_Letter_Code": "MP",
+        "District_Population": 650773
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Hoshangabad",
+        "State_Letter_Code": "MP",
+        "District_Population": 1410579
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Indore",
+        "State_Letter_Code": "MP",
+        "District_Population": 3732494
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Jabalpur",
+        "State_Letter_Code": "MP",
+        "District_Population": 3134958
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Jhabua",
+        "State_Letter_Code": "MP",
+        "District_Population": 1138008
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Katni",
+        "State_Letter_Code": "MP",
+        "District_Population": 1148983
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Mandla",
+        "State_Letter_Code": "MP",
+        "District_Population": 1249936
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Mandsaur",
+        "State_Letter_Code": "MP",
+        "District_Population": 1544402
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Morena",
+        "State_Letter_Code": "MP",
+        "District_Population": 2239177
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Narsinghpur",
+        "State_Letter_Code": "MP",
+        "District_Population": 1244855
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Neemuch",
+        "State_Letter_Code": "MP",
+        "District_Population": 947082
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Panna",
+        "State_Letter_Code": "MP",
+        "District_Population": 1161056
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Raisen",
+        "State_Letter_Code": "MP",
+        "District_Population": 1524931
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Rajgarh",
+        "State_Letter_Code": "MP",
+        "District_Population": 1773234
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Ratlam",
+        "State_Letter_Code": "MP",
+        "District_Population": 1666267
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Rewa",
+        "State_Letter_Code": "MP",
+        "District_Population": 2700405
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Sagar",
+        "State_Letter_Code": "MP",
+        "District_Population": 2711273
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Satna",
+        "State_Letter_Code": "MP",
+        "District_Population": 2550950
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Sehore",
+        "State_Letter_Code": "MP",
+        "District_Population": 1506968
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Seoni",
+        "State_Letter_Code": "MP",
+        "District_Population": 1588317
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Shahdol",
+        "State_Letter_Code": "MP",
+        "District_Population": 948435
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Shajapur",
+        "State_Letter_Code": "MP",
+        "District_Population": 1002961
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Sheopur",
+        "State_Letter_Code": "MP",
+        "District_Population": 787581
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Shivpuri",
+        "State_Letter_Code": "MP",
+        "District_Population": 1979988
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Sidhi",
+        "State_Letter_Code": "MP",
+        "District_Population": 1060790
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Singrauli",
+        "State_Letter_Code": "MP",
+        "District_Population": 1595504
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Tikamgarh",
+        "State_Letter_Code": "MP",
+        "District_Population": 1132119
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Ujjain",
+        "State_Letter_Code": "MP",
+        "District_Population": 2278867
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Umaria",
+        "State_Letter_Code": "MP",
+        "District_Population": 881540
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Vidisha",
+        "State_Letter_Code": "MP",
+        "District_Population": 1668471
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Khargone",
+        "State_Letter_Code": "MP",
+        "District_Population": 2143203
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Agar Malwa",
+        "State_Letter_Code": "MP",
+        "District_Population": 724725
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Niwari",
+        "State_Letter_Code": "MP",
+        "District_Population": 493481
+    },
+    {
+        "State_Name": "Madhya Pradesh",
+        "District_Name": "Gwalior",
+        "State_Letter_Code": "MP",
+        "District_Population": 2320768
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Ahmednagar",
+        "State_Letter_Code": "MH",
+        "District_Population": 5446582
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Akola",
+        "State_Letter_Code": "MH",
+        "District_Population": 2047658
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Amravati",
+        "State_Letter_Code": "MH",
+        "District_Population": 3308377
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Aurangabad",
+        "State_Letter_Code": "MH",
+        "District_Population": 4244624
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Bhandara",
+        "State_Letter_Code": "MH",
+        "District_Population": 1142744
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Beed",
+        "State_Letter_Code": "MH",
+        "District_Population": 2731797
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Buldhana",
+        "State_Letter_Code": "MH",
+        "District_Population": 3000299
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Chandrapur",
+        "State_Letter_Code": "MH",
+        "District_Population": 2501428
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Dhule",
+        "State_Letter_Code": "MH",
+        "District_Population": 2343503
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Gadchiroli",
+        "State_Letter_Code": "MH",
+        "District_Population": 1221198
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Gondia",
+        "State_Letter_Code": "MH",
+        "District_Population": 1733866
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Hingoli",
+        "State_Letter_Code": "MH",
+        "District_Population": 1348883
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Jalgaon",
+        "State_Letter_Code": "MH",
+        "District_Population": 4837237
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Jalna",
+        "State_Letter_Code": "MH",
+        "District_Population": 2216789
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Kolhapur",
+        "State_Letter_Code": "MH",
+        "District_Population": 4381211
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Latur",
+        "State_Letter_Code": "MH",
+        "District_Population": 2808988
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Mumbai",
+        "State_Letter_Code": "MH",
+        "District_Population": 10182103
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Nagpur",
+        "State_Letter_Code": "MH",
+        "District_Population": 5317036
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Nanded",
+        "State_Letter_Code": "MH",
+        "District_Population": 3828490
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Nandurbar",
+        "State_Letter_Code": "MH",
+        "District_Population": 1893454
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Nashik",
+        "State_Letter_Code": "MH",
+        "District_Population": 7009054
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Osmanabad",
+        "State_Letter_Code": "MH",
+        "District_Population": 1901629
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Parbhani",
+        "State_Letter_Code": "MH",
+        "District_Population": 2101194
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Pune",
+        "State_Letter_Code": "MH",
+        "District_Population": 10769333
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Raigad",
+        "State_Letter_Code": "MH",
+        "District_Population": 3087134
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Ratnagiri",
+        "State_Letter_Code": "MH",
+        "District_Population": 1802306
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Sangli",
+        "State_Letter_Code": "MH",
+        "District_Population": 3240243
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Satara",
+        "State_Letter_Code": "MH",
+        "District_Population": 3430560
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Sindhudurg",
+        "State_Letter_Code": "MH",
+        "District_Population": 956200
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Solapur",
+        "State_Letter_Code": "MH",
+        "District_Population": 4941327
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Palghar",
+        "State_Letter_Code": "MH",
+        "District_Population": 5823315
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Wardha",
+        "State_Letter_Code": "MH",
+        "District_Population": 1482526
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Washim",
+        "State_Letter_Code": "MH",
+        "District_Population": 1368949
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Yavatmal",
+        "State_Letter_Code": "MH",
+        "District_Population": 3183325
+    },
+    {
+        "State_Name": "Maharashtra",
+        "District_Name": "Thane",
+        "State_Letter_Code": "MH",
+        "District_Population": 10651565
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Bishnupur",
+        "State_Letter_Code": "MN",
+        "District_Population": 269405
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Chandel",
+        "State_Letter_Code": "MN",
+        "District_Population": 90601
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Churachandpur",
+        "State_Letter_Code": "MN",
+        "District_Population": 228021
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Imphal West",
+        "State_Letter_Code": "MN",
+        "District_Population": 606702
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Senapati",
+        "State_Letter_Code": "MN",
+        "District_Population": 179439
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Tamenglong",
+        "State_Letter_Code": "MN",
+        "District_Population": 126603
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Kakching",
+        "State_Letter_Code": "MN",
+        "District_Population": 247904
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Kamjong",
+        "State_Letter_Code": "MN",
+        "District_Population": 77203
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Noney",
+        "State_Letter_Code": "MN",
+        "District_Population": 50483
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Jiribam",
+        "State_Letter_Code": "MN",
+        "District_Population": 60407
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Ukhrul",
+        "State_Letter_Code": "MN",
+        "District_Population": 131514
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Kangpokpi",
+        "State_Letter_Code": "MN",
+        "District_Population": 225413
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Pherzawl",
+        "State_Letter_Code": "MN",
+        "District_Population": 67198
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Tengnoupal",
+        "State_Letter_Code": "MN",
+        "District_Population": 69695
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Thoubal",
+        "State_Letter_Code": "MN",
+        "District_Population": 225451
+    },
+    {
+        "State_Name": "Manipur",
+        "District_Name": "Imphal East",
+        "State_Letter_Code": "MN",
+        "District_Population": 444058
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "East Khasi Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 923873
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "East Jaintia Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 159044
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "Ribhoi",
+        "State_Letter_Code": "ML",
+        "District_Population": 306815
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "South Garo Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 172378
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "South West Garo Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 517156
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "West Khasi Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 304197
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "North Garo Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 167753
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "East Garo Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 135426
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "West Garo Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 255918
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "South West Khasi Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 136388
+    },
+    {
+        "State_Name": "Meghalaya",
+        "District_Name": "West Jaintia Hills",
+        "State_Letter_Code": "ML",
+        "District_Population": 288833
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Aizawl",
+        "State_Letter_Code": "MZ",
+        "District_Population": 457119
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Kolasib",
+        "State_Letter_Code": "MZ",
+        "District_Population": 108625
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Lawngtlai",
+        "State_Letter_Code": "MZ",
+        "District_Population": 147897
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Lunglei",
+        "State_Letter_Code": "MZ",
+        "District_Population": 138290
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Mamit",
+        "State_Letter_Code": "MZ",
+        "District_Population": 97973
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Saiha",
+        "State_Letter_Code": "MZ",
+        "District_Population": 47185
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Serchhip",
+        "State_Letter_Code": "MZ",
+        "District_Population": 63688
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Hnahthial",
+        "State_Letter_Code": "MZ",
+        "District_Population": 35759
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Champhai",
+        "State_Letter_Code": "MZ",
+        "District_Population": 103556
+    },
+    {
+        "State_Name": "Mizoram",
+        "District_Name": "Khawzawl",
+        "State_Letter_Code": "MZ",
+        "District_Population": 37261
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Dimapur",
+        "State_Letter_Code": "NL",
+        "District_Population": 403343
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Kiphire",
+        "State_Letter_Code": "NL",
+        "District_Population": 96463
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Kohima",
+        "State_Letter_Code": "NL",
+        "District_Population": 309647
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Longleng",
+        "State_Letter_Code": "NL",
+        "District_Population": 70045
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Mokokchung",
+        "State_Letter_Code": "NL",
+        "District_Population": 220895
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Mon",
+        "State_Letter_Code": "NL",
+        "District_Population": 278288
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Peren",
+        "State_Letter_Code": "NL",
+        "District_Population": 122008
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Phek",
+        "State_Letter_Code": "NL",
+        "District_Population": 187015
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Tuensang",
+        "State_Letter_Code": "NL",
+        "District_Population": 124078
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Wokha",
+        "State_Letter_Code": "NL",
+        "District_Population": 183062
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Zunheboto",
+        "State_Letter_Code": "NL",
+        "District_Population": 157816
+    },
+    {
+        "State_Name": "Nagaland",
+        "District_Name": "Noklak",
+        "State_Letter_Code": "NL",
+        "District_Population": 71775
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "South East Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1907852
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "North Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 2677433
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "South West Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1632774
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "West Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 2638730
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "North West Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 2169642
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "South Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1140541
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "New Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 2058889
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "North East Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1073423
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "Shahdara",
+        "State_Letter_Code": "DL",
+        "District_Population": 1205831
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "Central Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1739741
+    },
+    {
+        "State_Name": "Delhi",
+        "District_Name": "East Delhi",
+        "State_Letter_Code": "DL",
+        "District_Population": 1041625
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Angul",
+        "State_Letter_Code": "OR",
+        "District_Population": 1469056
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Balangir",
+        "State_Letter_Code": "OR",
+        "District_Population": 1883245
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Balasore",
+        "State_Letter_Code": "OR",
+        "District_Population": 2661020
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Bargarh",
+        "State_Letter_Code": "OR",
+        "District_Population": 1683490
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Boudh",
+        "State_Letter_Code": "OR",
+        "District_Population": 502705
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Bhadrak",
+        "State_Letter_Code": "OR",
+        "District_Population": 1693028
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Cuttack",
+        "State_Letter_Code": "OR",
+        "District_Population": 2914868
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Deogarh",
+        "State_Letter_Code": "OR",
+        "District_Population": 352802
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Dhenkanal",
+        "State_Letter_Code": "OR",
+        "District_Population": 1362103
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Gajapati",
+        "State_Letter_Code": "OR",
+        "District_Population": 635289
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Ganjam",
+        "State_Letter_Code": "OR",
+        "District_Population": 4025938
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Jagatsinghpur",
+        "State_Letter_Code": "OR",
+        "District_Population": 1300185
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Jajpur",
+        "State_Letter_Code": "OR",
+        "District_Population": 2075269
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Jharsuguda",
+        "State_Letter_Code": "OR",
+        "District_Population": 661614
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Kalahandi",
+        "State_Letter_Code": "OR",
+        "District_Population": 1795942
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Kandhamal",
+        "State_Letter_Code": "OR",
+        "District_Population": 837437
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Kendrapara",
+        "State_Letter_Code": "OR",
+        "District_Population": 1607698
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Kendujhar",
+        "State_Letter_Code": "OR",
+        "District_Population": 2071876
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Khordha",
+        "State_Letter_Code": "OR",
+        "District_Population": 2634478
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Koraput",
+        "State_Letter_Code": "OR",
+        "District_Population": 1598750
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Malkangiri",
+        "State_Letter_Code": "OR",
+        "District_Population": 698516
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Mayurbhanj",
+        "State_Letter_Code": "OR",
+        "District_Population": 2870884
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Nabarangapur",
+        "State_Letter_Code": "OR",
+        "District_Population": 1376728
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Nayagarh",
+        "State_Letter_Code": "OR",
+        "District_Population": 1107984
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Nuapada",
+        "State_Letter_Code": "OR",
+        "District_Population": 705422
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Puri",
+        "State_Letter_Code": "OR",
+        "District_Population": 1970463
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Rayagada",
+        "State_Letter_Code": "OR",
+        "District_Population": 1090124
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Sambalpur",
+        "State_Letter_Code": "OR",
+        "District_Population": 1191857
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Subarnapur",
+        "State_Letter_Code": "OR",
+        "District_Population": 730627
+    },
+    {
+        "State_Name": "Odisha",
+        "District_Name": "Sundargarh",
+        "State_Letter_Code": "OR",
+        "District_Population": 2383954
+    },
+    {
+        "State_Name": "Puducherry",
+        "District_Name": "Mahe",
+        "State_Letter_Code": "PY",
+        "District_Population": 31499
+    },
+    {
+        "State_Name": "Puducherry",
+        "District_Name": "Karaikal",
+        "State_Letter_Code": "PY",
+        "District_Population": 195564
+    },
+    {
+        "State_Name": "Puducherry",
+        "District_Name": "Puducherry",
+        "State_Letter_Code": "PY",
+        "District_Population": 1147665
+    },
+    {
+        "State_Name": "Puducherry",
+        "District_Name": "Yanam",
+        "State_Letter_Code": "PY",
+        "District_Population": 84181
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Amritsar",
+        "State_Letter_Code": "PB",
+        "District_Population": 2648221
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Barnala",
+        "State_Letter_Code": "PB",
+        "District_Population": 738159
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Bathinda",
+        "State_Letter_Code": "PB",
+        "District_Population": 1585816
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Faridkot",
+        "State_Letter_Code": "PB",
+        "District_Population": 708557
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Fatehgarh Sahib",
+        "State_Letter_Code": "PB",
+        "District_Population": 681818
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Fazilka",
+        "State_Letter_Code": "PB",
+        "District_Population": 1234603
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Gurdaspur",
+        "State_Letter_Code": "PB",
+        "District_Population": 1835012
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Hoshiarpur",
+        "State_Letter_Code": "PB",
+        "District_Population": 1799284
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Jalandhar",
+        "State_Letter_Code": "PB",
+        "District_Population": 2491340
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Kapurthala",
+        "State_Letter_Code": "PB",
+        "District_Population": 959694
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Ludhiana",
+        "State_Letter_Code": "PB",
+        "District_Population": 4010846
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Mansa",
+        "State_Letter_Code": "PB",
+        "District_Population": 877841
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Moga",
+        "State_Letter_Code": "PB",
+        "District_Population": 1147653
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Sri Muktsar Sahib",
+        "State_Letter_Code": "PB",
+        "District_Population": 1055338
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Patiala",
+        "State_Letter_Code": "PB",
+        "District_Population": 1890011
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Rupnagar",
+        "State_Letter_Code": "PB",
+        "District_Population": 1100043
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "S.A.S. Nagar",
+        "State_Letter_Code": "PB",
+        "District_Population": 1183460
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Sangrur",
+        "State_Letter_Code": "PB",
+        "District_Population": 1824956
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Shahid Bhagat Singh Nagar",
+        "State_Letter_Code": "PB",
+        "District_Population": 698123
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Tarn Taran",
+        "State_Letter_Code": "PB",
+        "District_Population": 1490997
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Ferozepur",
+        "State_Letter_Code": "PB",
+        "District_Population": 1062079
+    },
+    {
+        "State_Name": "Punjab",
+        "District_Name": "Pathankot",
+        "State_Letter_Code": "PB",
+        "District_Population": 795951
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Ajmer",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2931694
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Alwar",
+        "State_Letter_Code": "RJ",
+        "District_Population": 4184826
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Banswara",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1953610
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Baran",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1400860
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Barmer",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2952630
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Bharatpur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2924935
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Bhilwara",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2750780
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Bikaner",
+        "State_Letter_Code": "RJ",
+        "District_Population": 3141215
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Bundi",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1294438
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Chittorgarh",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2007504
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Churu",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1944122
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Dholpur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1378897
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Dungarpur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1587446
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Ganganagar",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2068891
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Hanumangarh",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2226856
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jaipur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 7622754
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jaisalmer",
+        "State_Letter_Code": "RJ",
+        "District_Population": 757584
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jalore",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2089324
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jhalawar",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1606235
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jhunjhunu",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2449127
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Jodhpur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 4216687
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Kota",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2218351
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Nagaur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 3794780
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Pali",
+        "State_Letter_Code": "RJ",
+        "District_Population": 2339266
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Pratapgarh",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1024190
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Rajsamand",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1377841
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Sikar",
+        "State_Letter_Code": "RJ",
+        "District_Population": 3068904
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Sirohi",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1191715
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Tonk",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1633489
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Udaipur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 3322052
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Dausa",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1799983
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Karauli",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1612121
+    },
+    {
+        "State_Name": "Rajasthan",
+        "District_Name": "Sawai Madhopur",
+        "State_Letter_Code": "RJ",
+        "District_Population": 1632607
+    },
+    {
+        "State_Name": "Sikkim",
+        "District_Name": "East Sikkim",
+        "State_Letter_Code": "SK",
+        "District_Population": 308387
+    },
+    {
+        "State_Name": "Sikkim",
+        "District_Name": "North Sikkim",
+        "State_Letter_Code": "SK",
+        "District_Population": 48116
+    },
+    {
+        "State_Name": "Sikkim",
+        "District_Name": "South Sikkim",
+        "State_Letter_Code": "SK",
+        "District_Population": 179886
+    },
+    {
+        "State_Name": "Sikkim",
+        "District_Name": "West Sikkim",
+        "State_Letter_Code": "SK",
+        "District_Population": 157909
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Ariyalur",
+        "State_Letter_Code": "TN",
+        "District_Population": 877731
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Chennai",
+        "State_Letter_Code": "TN",
+        "District_Population": 5180598
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Coimbatore",
+        "State_Letter_Code": "TN",
+        "District_Population": 4532441
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Cuddalore",
+        "State_Letter_Code": "TN",
+        "District_Population": 2925561
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Dharmapuri",
+        "State_Letter_Code": "TN",
+        "District_Population": 1618390
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Dindigul",
+        "State_Letter_Code": "TN",
+        "District_Population": 2466248
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Erode",
+        "State_Letter_Code": "TN",
+        "District_Population": 1837097
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Chengalpattu",
+        "State_Letter_Code": "TN",
+        "District_Population": 1917751
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Kanyakumari",
+        "State_Letter_Code": "TN",
+        "District_Population": 2112574
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Karur",
+        "State_Letter_Code": "TN",
+        "District_Population": 1276455
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Krishnagiri",
+        "State_Letter_Code": "TN",
+        "District_Population": 2293348
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Madurai",
+        "State_Letter_Code": "TN",
+        "District_Population": 3422254
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Namakkal",
+        "State_Letter_Code": "TN",
+        "District_Population": 1944387
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Perambalur",
+        "State_Letter_Code": "TN",
+        "District_Population": 689415
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Pudukkottai",
+        "State_Letter_Code": "TN",
+        "District_Population": 1842856
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Ramanathapuram",
+        "State_Letter_Code": "TN",
+        "District_Population": 1481187
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Salem",
+        "State_Letter_Code": "TN",
+        "District_Population": 3879561
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Sivaganga",
+        "State_Letter_Code": "TN",
+        "District_Population": 1612970
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Thanjavur",
+        "State_Letter_Code": "TN",
+        "District_Population": 2755715
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Nilgiris",
+        "State_Letter_Code": "TN",
+        "District_Population": 838960
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Theni",
+        "State_Letter_Code": "TN",
+        "District_Population": 1411323
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Thiruvallur",
+        "State_Letter_Code": "TN",
+        "District_Population": 4702747
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Thiruvarur",
+        "State_Letter_Code": "TN",
+        "District_Population": 1543213
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Thoothukkudi",
+        "State_Letter_Code": "TN",
+        "District_Population": 1923662
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tiruchirappalli",
+        "State_Letter_Code": "TN",
+        "District_Population": 3074570
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tirunelveli",
+        "State_Letter_Code": "TN",
+        "District_Population": 2045436
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tiruppur",
+        "State_Letter_Code": "TN",
+        "District_Population": 3147557
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tiruvannamalai",
+        "State_Letter_Code": "TN",
+        "District_Population": 2867817
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Vellore",
+        "State_Letter_Code": "TN",
+        "District_Population": 1663537
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Kallakurichi",
+        "State_Letter_Code": "TN",
+        "District_Population": 1781977
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Nagapattinam",
+        "State_Letter_Code": "TN",
+        "District_Population": 793127
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Kancheepuram",
+        "State_Letter_Code": "TN",
+        "District_Population": 2068537
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tirupathur",
+        "State_Letter_Code": "TN",
+        "District_Population": 1133120
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Ranipet",
+        "State_Letter_Code": "TN",
+        "District_Population": 1676491
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Viluppuram",
+        "State_Letter_Code": "TN",
+        "District_Population": 2023256
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Tenkasi",
+        "State_Letter_Code": "TN",
+        "District_Population": 1558231
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Mayiladuthurai",
+        "State_Letter_Code": "TN",
+        "District_Population": 1109356
+    },
+    {
+        "State_Name": "Tamil Nadu",
+        "District_Name": "Virudhunagar",
+        "State_Letter_Code": "TN",
+        "District_Population": 2218393
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Komaram Bheem",
+        "State_Letter_Code": "TG",
+        "District_Population": 655043
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Hyderabad",
+        "State_Letter_Code": "TG",
+        "District_Population": 4478805
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Peddapalli",
+        "State_Letter_Code": "TG",
+        "District_Population": 1019340
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Medak",
+        "State_Letter_Code": "TG",
+        "District_Population": 862862
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Nalgonda",
+        "State_Letter_Code": "TG",
+        "District_Population": 1791260
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Nizamabad",
+        "State_Letter_Code": "TG",
+        "District_Population": 1739825
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Ranga Reddy",
+        "State_Letter_Code": "TG",
+        "District_Population": 3328826
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Warangal Rural",
+        "State_Letter_Code": "TG",
+        "District_Population": 897514
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Adilabad",
+        "State_Letter_Code": "TG",
+        "District_Population": 790943
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Nirmal",
+        "State_Letter_Code": "TG",
+        "District_Population": 833721
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Mancherial",
+        "State_Letter_Code": "TG",
+        "District_Population": 835755
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Kamareddy",
+        "State_Letter_Code": "TG",
+        "District_Population": 1172378
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Jagtial",
+        "State_Letter_Code": "TG",
+        "District_Population": 1223434
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Sangareddy",
+        "State_Letter_Code": "TG",
+        "District_Population": 1838674
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Siddipet",
+        "State_Letter_Code": "TG",
+        "District_Population": 1046821
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Rajanna Sircilla",
+        "State_Letter_Code": "TG",
+        "District_Population": 541309
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Karimnagar",
+        "State_Letter_Code": "TG",
+        "District_Population": 998118
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Jangaon",
+        "State_Letter_Code": "TG",
+        "District_Population": 589322
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Mahabubabad",
+        "State_Letter_Code": "TG",
+        "District_Population": 908540
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Khammam",
+        "State_Letter_Code": "TG",
+        "District_Population": 1465136
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Bhadradri Kothagudem",
+        "State_Letter_Code": "TG",
+        "District_Population": 1248156
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Jayashankar Bhupalapally",
+        "State_Letter_Code": "TG",
+        "District_Population": 506423
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Warangal Urban",
+        "State_Letter_Code": "TG",
+        "District_Population": 1116746
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Mulugu",
+        "State_Letter_Code": "TG",
+        "District_Population": 480325
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Vikarabad",
+        "State_Letter_Code": "TG",
+        "District_Population": 1193441
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Nagarkurnool",
+        "State_Letter_Code": "TG",
+        "District_Population": 1192058
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Jogulamba Gadwal",
+        "State_Letter_Code": "TG",
+        "District_Population": 541589
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Narayanpet",
+        "State_Letter_Code": "TG",
+        "District_Population": 613028
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Wanaparthy",
+        "State_Letter_Code": "TG",
+        "District_Population": 580656
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Mahabubnagar",
+        "State_Letter_Code": "TG",
+        "District_Population": 953102
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Medchal Malkajgiri",
+        "State_Letter_Code": "TG",
+        "District_Population": 2372091
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Yadadri Bhuvanagiri",
+        "State_Letter_Code": "TG",
+        "District_Population": 1026605
+    },
+    {
+        "State_Name": "Telangana",
+        "District_Name": "Suryapet",
+        "State_Letter_Code": "TG",
+        "District_Population": 1174124
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "Dhalai",
+        "State_Letter_Code": "TR",
+        "District_Population": 434093
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "North Tripura",
+        "State_Letter_Code": "TR",
+        "District_Population": 457863
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "Gomati",
+        "State_Letter_Code": "TR",
+        "District_Population": 503405
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "Sipahijala",
+        "State_Letter_Code": "TR",
+        "District_Population": 522247
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "Khowai",
+        "State_Letter_Code": "TR",
+        "District_Population": 498092
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "West Tripura",
+        "State_Letter_Code": "TR",
+        "District_Population": 931774
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "South Tripura",
+        "State_Letter_Code": "TR",
+        "District_Population": 472638
+    },
+    {
+        "State_Name": "Tripura",
+        "District_Name": "Unokoti",
+        "State_Letter_Code": "TR",
+        "District_Population": 318374
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Agra",
+        "State_Letter_Code": "UP",
+        "District_Population": 5713591
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Aligarh",
+        "State_Letter_Code": "UP",
+        "District_Population": 4085787
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Prayagraj",
+        "State_Letter_Code": "UP",
+        "District_Population": 7315840
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Ambedkar Nagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 2744477
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Auraiya",
+        "State_Letter_Code": "UP",
+        "District_Population": 1476425
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Azamgarh",
+        "State_Letter_Code": "UP",
+        "District_Population": 5710743
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Baghpat",
+        "State_Letter_Code": "UP",
+        "District_Population": 1492079
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Bahraich",
+        "State_Letter_Code": "UP",
+        "District_Population": 4326661
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Ballia",
+        "State_Letter_Code": "UP",
+        "District_Population": 3638400
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Balrampur",
+        "State_Letter_Code": "UP",
+        "District_Population": 2421930
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Banda",
+        "State_Letter_Code": "UP",
+        "District_Population": 2060287
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Barabanki",
+        "State_Letter_Code": "UP",
+        "District_Population": 3288573
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Bareilly",
+        "State_Letter_Code": "UP",
+        "District_Population": 5057412
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Basti",
+        "State_Letter_Code": "UP",
+        "District_Population": 3122359
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Bijnor",
+        "State_Letter_Code": "UP",
+        "District_Population": 4222463
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Budaun",
+        "State_Letter_Code": "UP",
+        "District_Population": 3502032
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Bulandshahr",
+        "State_Letter_Code": "UP",
+        "District_Population": 3932354
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Chandauli",
+        "State_Letter_Code": "UP",
+        "District_Population": 2206397
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Chitrakoot",
+        "State_Letter_Code": "UP",
+        "District_Population": 1129574
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Deoria",
+        "State_Letter_Code": "UP",
+        "District_Population": 3554623
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Etah",
+        "State_Letter_Code": "UP",
+        "District_Population": 2100064
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Etawah",
+        "State_Letter_Code": "UP",
+        "District_Population": 1889669
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Ayodhya",
+        "State_Letter_Code": "UP",
+        "District_Population": 3281506
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Farrukhabad",
+        "State_Letter_Code": "UP",
+        "District_Population": 2146303
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Fatehpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 2994515
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Firozabad",
+        "State_Letter_Code": "UP",
+        "District_Population": 2150419
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Gautam Buddha Nagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 1884717
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Hapur",
+        "State_Letter_Code": "UP",
+        "District_Population": 1677072
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Ghazipur",
+        "State_Letter_Code": "UP",
+        "District_Population": 4144453
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Gonda",
+        "State_Letter_Code": "UP",
+        "District_Population": 3948734
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Gorakhpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 5413627
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Hamirpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 1266315
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Hardoi",
+        "State_Letter_Code": "UP",
+        "District_Population": 4668717
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Hathras",
+        "State_Letter_Code": "UP",
+        "District_Population": 1888799
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Jalaun",
+        "State_Letter_Code": "UP",
+        "District_Population": 1913193
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Jaunpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 5156776
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Jhansi",
+        "State_Letter_Code": "UP",
+        "District_Population": 2304140
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Amroha",
+        "State_Letter_Code": "UP",
+        "District_Population": 1915247
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kannauj",
+        "State_Letter_Code": "UP",
+        "District_Population": 1876266
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kanpur Dehat",
+        "State_Letter_Code": "UP",
+        "District_Population": 1302590
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kanpur Nagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 5996116
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kasganj",
+        "State_Letter_Code": "UP",
+        "District_Population": 1574492
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kaushambi",
+        "State_Letter_Code": "UP",
+        "District_Population": 1301617
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Lakhimpur Kheri",
+        "State_Letter_Code": "UP",
+        "District_Population": 4597011
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Kushinagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 4022417
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Lalitpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 1398580
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Lucknow",
+        "State_Letter_Code": "UP",
+        "District_Population": 5262961
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Maharajganj",
+        "State_Letter_Code": "UP",
+        "District_Population": 2702541
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Mahoba",
+        "State_Letter_Code": "UP",
+        "District_Population": 1008224
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Mainpuri",
+        "State_Letter_Code": "UP",
+        "District_Population": 2088933
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Mathura",
+        "State_Letter_Code": "UP",
+        "District_Population": 2903494
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Mau",
+        "State_Letter_Code": "UP",
+        "District_Population": 2062789
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Meerut",
+        "State_Letter_Code": "UP",
+        "District_Population": 3938951
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Mirzapur",
+        "State_Letter_Code": "UP",
+        "District_Population": 2841984
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Moradabad",
+        "State_Letter_Code": "UP",
+        "District_Population": 3604409
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Muzaffarnagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 3435248
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Pilibhit",
+        "State_Letter_Code": "UP",
+        "District_Population": 2313397
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Pratapgarh",
+        "State_Letter_Code": "UP",
+        "District_Population": 3655980
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Rae Bareli",
+        "State_Letter_Code": "UP",
+        "District_Population": 2768759
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Rampur",
+        "State_Letter_Code": "UP",
+        "District_Population": 2677865
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Saharanpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 3947417
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Sant Kabir Nagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 2166160
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Bhadohi",
+        "State_Letter_Code": "UP",
+        "District_Population": 1772144
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Shahjahanpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 3458513
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Shrawasti",
+        "State_Letter_Code": "UP",
+        "District_Population": 908381
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Siddharthnagar",
+        "State_Letter_Code": "UP",
+        "District_Population": 2411441
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Sitapur",
+        "State_Letter_Code": "UP",
+        "District_Population": 5090943
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Sonbhadra",
+        "State_Letter_Code": "UP",
+        "District_Population": 2103634
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Sultanpur",
+        "State_Letter_Code": "UP",
+        "District_Population": 2503021
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Unnao",
+        "State_Letter_Code": "UP",
+        "District_Population": 3564927
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Varanasi",
+        "State_Letter_Code": "UP",
+        "District_Population": 4192726
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Sambhal",
+        "State_Letter_Code": "UP",
+        "District_Population": 2789855
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Shamli",
+        "State_Letter_Code": "UP",
+        "District_Population": 1288322
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Ghaziabad",
+        "State_Letter_Code": "UP",
+        "District_Population": 3532725
+    },
+    {
+        "State_Name": "Uttar Pradesh",
+        "District_Name": "Amethi",
+        "State_Letter_Code": "UP",
+        "District_Population": 2969282
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Almora",
+        "State_Letter_Code": "UK",
+        "District_Population": 707797
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Bageshwar",
+        "State_Letter_Code": "UK",
+        "District_Population": 301321
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Chamoli",
+        "State_Letter_Code": "UK",
+        "District_Population": 429893
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Champawat",
+        "State_Letter_Code": "UK",
+        "District_Population": 383081
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Dehradun",
+        "State_Letter_Code": "UK",
+        "District_Population": 1987246
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Pauri Garhwal",
+        "State_Letter_Code": "UK",
+        "District_Population": 707280
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Haridwar",
+        "State_Letter_Code": "UK",
+        "District_Population": 2185557
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Nainital",
+        "State_Letter_Code": "UK",
+        "District_Population": 1104702
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Pithoragarh",
+        "State_Letter_Code": "UK",
+        "District_Population": 542847
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Rudraprayag",
+        "State_Letter_Code": "UK",
+        "District_Population": 345167
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Tehri Garhwal",
+        "State_Letter_Code": "UK",
+        "District_Population": 656523
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Udham Singh Nagar",
+        "State_Letter_Code": "UK",
+        "District_Population": 1796224
+    },
+    {
+        "State_Name": "Uttarakhand",
+        "District_Name": "Uttarkashi",
+        "State_Letter_Code": "UK",
+        "District_Population": 376348
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Bankura",
+        "State_Letter_Code": "WB",
+        "District_Population": 4128326
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Purba Bardhaman",
+        "State_Letter_Code": "WB",
+        "District_Population": 5355582
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Birbhum",
+        "State_Letter_Code": "WB",
+        "District_Population": 4036582
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Dakshin Dinajpur",
+        "State_Letter_Code": "WB",
+        "District_Population": 2009315
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Darjeeling",
+        "State_Letter_Code": "WB",
+        "District_Population": 1794058
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Howrah",
+        "State_Letter_Code": "WB",
+        "District_Population": 5550162
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Hooghly",
+        "State_Letter_Code": "WB",
+        "District_Population": 6291250
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Jalpaiguri",
+        "State_Letter_Code": "WB",
+        "District_Population": 2572743
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Cooch Behar",
+        "State_Letter_Code": "WB",
+        "District_Population": 3206694
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Kolkata",
+        "State_Letter_Code": "WB",
+        "District_Population": 4968868
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Malda",
+        "State_Letter_Code": "WB",
+        "District_Population": 4534693
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Murshidabad",
+        "State_Letter_Code": "WB",
+        "District_Population": 8030063
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Nadia",
+        "State_Letter_Code": "WB",
+        "District_Population": 5829989
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "North 24 Parganas",
+        "State_Letter_Code": "WB",
+        "District_Population": 11303212
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Paschim Medinipur",
+        "State_Letter_Code": "WB",
+        "District_Population": 5412843
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Purba Medinipur",
+        "State_Letter_Code": "WB",
+        "District_Population": 5785586
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Purulia",
+        "State_Letter_Code": "WB",
+        "District_Population": 3338643
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "South 24 Parganas",
+        "State_Letter_Code": "WB",
+        "District_Population": 9698137
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Uttar Dinajpur",
+        "State_Letter_Code": "WB",
+        "District_Population": 3210998
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Kalimpong",
+        "State_Letter_Code": "WB",
+        "District_Population": 328952
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Alipurduar",
+        "State_Letter_Code": "WB",
+        "District_Population": 1771741
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Paschim Bardhaman",
+        "State_Letter_Code": "WB",
+        "District_Population": 3493351
+    },
+    {
+        "State_Name": "West Bengal",
+        "District_Name": "Jhargram",
+        "State_Letter_Code": "WB",
+        "District_Population": 1415500
+    }
+]
