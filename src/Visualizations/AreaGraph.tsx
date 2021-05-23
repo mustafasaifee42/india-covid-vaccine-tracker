@@ -42,7 +42,7 @@ const SquareDiv = styled.div`
 
 const LegendText = styled.div`
   font-size: 14px;
-  color: var(--gray);
+  color: var(--black);
 `
 
 const AreaGraph = (props: Props) => {
@@ -133,19 +133,19 @@ const AreaGraph = (props: Props) => {
         .datum(data)
         .attr('class', 'line')
         .attr('d', areaGraph as any)
-        .style('opacity', '1')
+        .style('opacity', '0.7')
         .style('fill', 'var(--primary-color)')
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', covaxAreaGraph as any)
-        .style('opacity', '1')
+        .style('opacity', '0.7')
         .style('fill', '#ffc400')
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', sputnikAreaGraph as any)
-        .style('opacity', '1')
+        .style('opacity', '0.7')
         .style('fill', '#00aeff')
       g.append('path')
         .datum(data)
