@@ -35,8 +35,7 @@ export interface CityDataType {
 }
 
 export interface CountryStateDataType {
-  '18-30 years (Age)': string;
-  '30-45 years (Age)': string;
+  '18-45 years (Age)': string;
   '45-60 years (Age)': string;
   '60+ years (Age)': string;
   'AEFI': string;
@@ -47,6 +46,7 @@ export interface CountryStateDataType {
   'State': string;
   'Total Covaxin Administered': string;
   'Total CoviShield Administered': string;
+  'Total Sputnik V Administered': string;
   'Total Doses Administered': string;
   'Total Individuals Vaccinated': string;
   'Total Sessions Conducted': string;
@@ -56,8 +56,7 @@ export interface CountryStateDataType {
 }
 
 export interface CountryStateFormattedDataType {
-  '18-30 years (Age)': number;
-  '30-45 years (Age)': number;
+  '18-45 years (Age)': number;
   '45-60 years (Age)': number;
   '60+ years (Age)': number;
   AEFI: number;
@@ -67,6 +66,7 @@ export interface CountryStateFormattedDataType {
   'Second Dose Administered': number;
   'Total Covaxin Administered': number;
   'Total CoviShield Administered': number;
+  'Total Sputnik V Administered': number;
   'Total Doses Administered': number;
   'Total Individuals Vaccinated': number;
   'Total Sessions Conducted': number;
@@ -75,8 +75,7 @@ export interface CountryStateFormattedDataType {
   'Date': Date;
 }
 export interface CountryStateWithDeltaDataType {
-  '18-30 years (Age)': number;
-  '30-45 years (Age)': number;
+  '18-45 years (Age)': number;
   '45-60 years (Age)': number;
   '60+ years (Age)': number;
   AEFI: number;
@@ -86,14 +85,14 @@ export interface CountryStateWithDeltaDataType {
   'Second Dose Administered': number;
   'Total Covaxin Administered': number;
   'Total CoviShield Administered': number;
+  'Total Sputnik V Administered': number;
   'Total Doses Administered': number;
   'Total Individuals Vaccinated': number;
   'Total Sessions Conducted': number;
   'Total Sites ': number;
   'Transgender(Individuals Vaccinated)': number;
   'Date': Date;
-  'Delta 18-30 years (Age)': number;
-  'Delta 30-45 years (Age)': number;
+  'Delta 18-45 years (Age)': number;
   'Delta 45-60 years (Age)': number;
   'Delta 60+ years (Age)': number;
   'Delta Female(Individuals Vaccinated)': number;
@@ -102,11 +101,11 @@ export interface CountryStateWithDeltaDataType {
   'Delta Second Dose Administered': number;
   'Delta Covaxin Administered': number;
   'Delta CoviShield Administered': number;
+  'Delta Sputnik V Administered': number;
   'Delta Doses Administered': number;
   'Delta Individuals Vaccinated': number;
   'Delta Transgender(Individuals Vaccinated)': number;
-  '7-day Average 18-30 years (Age)': number;
-  '7-day Average 30-45 years (Age)': number;
+  '7-day Average 18-45 years (Age)': number;
   '7-day Average 45-60 years (Age)': number;
   '7-day Average 60+ years (Age)': number;
   '7-day Average Female(Individuals Vaccinated)': number;
@@ -115,6 +114,7 @@ export interface CountryStateWithDeltaDataType {
   '7-day Average Second Dose Administered': number;
   '7-day Average Covaxin Administered': number;
   '7-day Average CoviShield Administered': number;
+  '7-day Average Sputnik V Administered': number;
   '7-day Average Doses Administered': number;
   '7-day Average Individuals Vaccinated': number;
   '7-day Average Transgender(Individuals Vaccinated)': number;

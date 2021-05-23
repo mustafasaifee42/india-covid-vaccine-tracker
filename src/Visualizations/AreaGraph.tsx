@@ -105,45 +105,67 @@ const AreaGraph = (props: Props) => {
       const areaGraph = area()
         .x((d: any) => xScale(d.Date))
         .y0(yScale(0))
-        .y1((d: any) => yScale(d['Total Doses Administered']))
+        .y1((d: any) => yScale(d['Total Covaxin Administered'] + d['Total Sputnik V Administered'] + d['Total CoviShield Administered']))
         .curve(curveStep);
       const covaxAreaGraph = area()
         .x((d: any) => xScale(d.Date))
         .y0(yScale(0))
-        .y1((d: any) => yScale(d['Total Covaxin Administered']))
+        .y1((d: any) => yScale(d['Total Covaxin Administered'] + d['Total Sputnik V Administered']))
+        .curve(curveStep);
+      const sputnikAreaGraph = area()
+        .x((d: any) => xScale(d.Date))
+        .y0(yScale(0))
+        .y1((d: any) => yScale(d['Total Sputnik V Administered']))
         .curve(curveStep);
       const lineGraph = line()
         .x((d: any) => xScale(d.Date))
-        .y((d: any) => yScale(d['Total Doses Administered']))
+        .y((d: any) => yScale(d['Total Covaxin Administered'] + d['Total Sputnik V Administered'] + d['Total CoviShield Administered']))
         .curve(curveStep);
       const covaxLineGraph = line()
         .x((d: any) => xScale(d.Date))
-        .y((d: any) => yScale(d['Total Covaxin Administered']))
+        .y((d: any) => yScale(d['Total Covaxin Administered'] + d['Total Sputnik V Administered']))
+        .curve(curveStep);
+      const sputnikLineGraph = line()
+        .x((d: any) => xScale(d.Date))
+        .y((d: any) => yScale(d['Total Sputnik V Administered']))
         .curve(curveStep);
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', areaGraph as any)
-        .style('opacity', '0.5')
-        .style('fill', 'var(--secondary-color)')
+        .style('opacity', '1')
+        .style('fill', 'var(--primary-color)')
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', covaxAreaGraph as any)
-        .style('opacity', '0.5')
-        .style('fill', 'var(--tertiary-color)')
+        .style('opacity', '1')
+        .style('fill', '#ffc400')
+      g.append('path')
+        .datum(data)
+        .attr('class', 'line')
+        .attr('d', sputnikAreaGraph as any)
+        .style('opacity', '1')
+        .style('fill', '#00aeff')
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', lineGraph as any)
-        .style('stroke', 'var(--secondary-color)')
+        .style('stroke', 'var(--primary-color)')
         .attr('fill', 'none')
         .attr('stroke-width', 2);
       g.append('path')
         .datum(data)
         .attr('class', 'line')
         .attr('d', covaxLineGraph as any)
-        .style('stroke', 'var(--tertiary-color)')
+        .style('stroke', '#ffc400')
+        .attr('fill', 'none')
+        .attr('stroke-width', 2);
+      g.append('path')
+        .datum(data)
+        .attr('class', 'line')
+        .attr('d', sputnikLineGraph as any)
+        .style('stroke', '#00aeff')
         .attr('fill', 'none')
         .attr('stroke-width', 2);
     }
@@ -153,13 +175,18 @@ const AreaGraph = (props: Props) => {
       <h4>Cummulative doses administered by manufacturers</h4>
       <Keys>
         <Legend>
-          <SquareDiv style={{ backgroundColor: 'var(--tertiary-color)' }} />
-          <LegendText>Covaxin Daily Doses</LegendText>
+          <SquareDiv style={{ backgroundColor: '#00aeff' }} />
+          <LegendText>Sputnik V Doses</LegendText>
         </Legend>
 
         <Legend>
-          <SquareDiv style={{ backgroundColor: 'var(--secondary-color)' }} />
-          <LegendText>Covishield Daily Doses</LegendText>
+          <SquareDiv style={{ backgroundColor: '#ffc400' }} />
+          <LegendText>Covaxin Doses</LegendText>
+        </Legend>
+
+        <Legend>
+          <SquareDiv style={{ backgroundColor: 'var(--primary-color)' }} />
+          <LegendText>Covishield Doses</LegendText>
         </Legend>
       </Keys>
       <svg width={windowWidth} height={(windowWidth * 400 / 900)} ref={ManufacturingGraph} viewBox={'0 0 900 400'}></svg>

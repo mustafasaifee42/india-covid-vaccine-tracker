@@ -47,14 +47,9 @@ const CountrySection = (props: Props) => {
         data={
           [
             {
-              value: countryData[countryData.length - 1]['18-30 years (Age)'],
-              color: 'var(--primary-color-very-light)',
-              key: '18-30:',
-            },
-            {
-              value: countryData[countryData.length - 1]['30-45 years (Age)'],
+              value: countryData[countryData.length - 1]['18-45 years (Age)'],
               color: 'var(--primary-color-light)',
-              key: '30-45:',
+              key: '18-45:',
             },
             {
               value: countryData[countryData.length - 1]['45-60 years (Age)'],
@@ -67,7 +62,7 @@ const CountrySection = (props: Props) => {
               key: '60+ yrs:',
             },
             {
-              value: countryData[countryData.length - 1]['Total Individuals Vaccinated'] - (countryData[countryData.length - 1]['18-30 years (Age)'] + countryData[countryData.length - 1]['30-45 years (Age)'] + countryData[countryData.length - 1]['45-60 years (Age)'] + countryData[countryData.length - 1]['60+ years (Age)']),
+              value: countryData[countryData.length - 1]['Total Individuals Vaccinated'] - (countryData[countryData.length - 1]['18-45 years (Age)'] + countryData[countryData.length - 1]['45-60 years (Age)'] + countryData[countryData.length - 1]['60+ years (Age)']),
               color: 'var(--light-gray)',
               key: 'Age NA:',
             },
