@@ -331,7 +331,7 @@ function App() {
         const countryFiltered = _.filter(data, (el: CountryStateDataType) => el.State === 'India');
         let endIndex = 0;
         for (let k = 0; k < countryFiltered.length; k++) {
-          if (countryFiltered[k]['Total Doses Administered'] === '0') {
+          if (countryFiltered[k]['Total Doses Administered'] === '0' || countryFiltered[k]['Total Doses Administered'] === '') {
             endIndex = k;
             break;
           }
@@ -411,7 +411,7 @@ function App() {
           let endIndexForState = 0;
           const stateFiltered = _.filter(data, (el: CountryStateDataType) => el.State === state);
           for (let k = 0; k < countryFiltered.length; k++) {
-            if (stateFiltered[k]['Total Doses Administered'] === '0') {
+            if (stateFiltered[k]['Total Doses Administered'] === '0' || stateFiltered[k]['Total Doses Administered'] === '') {
               endIndexForState = k;
               break;
             }
