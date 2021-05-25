@@ -32,14 +32,14 @@
     {
         "STATE_CODE": "CH",
         "STATE_NAME": "Chandigarh",
-        "x": 3,
+        "x": 1,
         "y": 2
     },
     {
         "STATE_CODE": "UK",
         "STATE_NAME": "Uttarakhand",
         "x": 4,
-        "y": 2
+        "y": 1
     },
     {
         "STATE_CODE": "RJ",
@@ -50,50 +50,50 @@
     {
         "STATE_CODE": "DL",
         "STATE_NAME": "Delhi",
-        "x": 2,
-        "y": 3
+        "x": 3,
+        "y": 2
     },
     {
         "STATE_CODE": "UP",
         "STATE_NAME": "Uttar Pradesh",
-        "x": 3,
-        "y": 3
+        "x": 4,
+        "y": 2
     },
     {
         "STATE_CODE": "BR",
         "STATE_NAME": "Bihar",
-        "x": 4,
-        "y": 3
+        "x": 5,
+        "y": 2
     },
     {
         "STATE_CODE": "SK",
         "STATE_NAME": "Sikkim",
-        "x": 5,
-        "y": 3
+        "x": 6,
+        "y": 1
     },
     {
         "STATE_CODE": "AS",
         "STATE_NAME": "Assam",
-        "x": 6,
-        "y": 3
+        "x": 7,
+        "y": 2
     },
     {
         "STATE_CODE": "NL",
         "STATE_NAME": "Nagaland",
-        "x": 7,
-        "y": 3
+        "x": 8,
+        "y": 2
     },
     {
         "STATE_CODE": "AR",
         "STATE_NAME": "Arunachal Pradesh",
         "x": 8,
-        "y": 3
+        "y": 1
     },
     {
         "STATE_CODE": "GJ",
         "STATE_NAME": "Gujarat",
         "x": 0,
-        "y": 4
+        "y": 3
     },
     {
         "STATE_CODE": "DNHDD",
@@ -104,74 +104,74 @@
     {
         "STATE_CODE": "CG",
         "STATE_NAME": "Chhattisgarh",
-        "x": 2,
-        "y": 4
+        "x": 3,
+        "y": 3
     },
     {
         "STATE_CODE": "OR",
         "STATE_NAME": "Odisha",
-        "x": 3,
-        "y": 4
+        "x": 4,
+        "y": 3
     },
     {
         "STATE_CODE": "JH",
         "STATE_NAME": "Jharkhand",
-        "x": 4,
-        "y": 4
+        "x": 5,
+        "y": 3
     },
     {
         "STATE_CODE": "WB",
         "STATE_NAME": "West Bengal",
-        "x": 5,
-        "y": 4
+        "x": 6,
+        "y": 2
     },
     {
         "STATE_CODE": "ML",
         "STATE_NAME": "Meghalaya",
-        "x": 6,
-        "y": 4
+        "x": 7,
+        "y": 3
     },
     {
         "STATE_CODE": "MN",
         "STATE_NAME": "Manipur",
-        "x": 7,
-        "y": 4
+        "x": 8,
+        "y": 3
     },
     {
         "STATE_CODE": "GA",
         "STATE_NAME": "Goa",
-        "x": 1,
+        "x": 2,
         "y": 5
     },
     {
         "STATE_CODE": "MH",
         "STATE_NAME": "Maharashtra",
         "x": 2,
-        "y": 5
+        "y": 4
     },
     {
         "STATE_CODE": "MP",
         "STATE_NAME": "Madhya Pradesh",
-        "x": 3,
-        "y": 5
+        "x": 2,
+        "y": 3
     },
     {
         "STATE_CODE": "TG",
         "STATE_NAME": "Telangana",
-        "x": 4,
-        "y": 5
+        "x": 3,
+        "y": 4
     },
     {
         "STATE_CODE": "TR",
         "STATE_NAME": "Tripura",
-        "x": 6,
-        "y": 5
+        "x": 7,
+        "y": 4
     },
     {
         "STATE_CODE": "MZ",
         "STATE_NAME": "Mizoram",
-        "x": 7,
-        "y": 5
+        "x": 8,
+        "y": 4
     },
     {
         "STATE_CODE": "KA",
@@ -183,12 +183,12 @@
         "STATE_CODE": "AP",
         "STATE_NAME": "Andhra Pradesh",
         "x": 3,
-        "y": 6
+        "y": 5
     },
     {
         "STATE_CODE": "PY",
         "STATE_NAME": "Puducherry",
-        "x": 4,
+        "x": 3,
         "y": 6
     },
     {
@@ -212,7 +212,7 @@
     {
         "STATE_CODE": "AN",
         "STATE_NAME": "Andaman and Nicobar Islands",
-        "x": 7,
+        "x": 8,
         "y": 7
     }
 ]
