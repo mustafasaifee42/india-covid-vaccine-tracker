@@ -189,7 +189,7 @@ const ListViewForStates = (props: Props) => {
             if (sortedBy === 'TimeNeededOneDose') return (populationData[populationData.findIndex(el => `${el.District_Name}, ${el.State_Name}` === `${city.District}, ${city.State}`)].District_Population - city.data[city.data.length - 1].Cummilative_First_Dose_Administered) / city.data[city.data.length - 1]['7_Day_Ruuning_Avg_Total_Dose_Administered'] / 365
             if (sortedBy === 'TimeFullyVaccinated') return (2 * populationData[populationData.findIndex(el => `${el.District_Name}, ${el.State_Name}` === `${city.District}, ${city.State}`)].District_Population - city.data[city.data.length - 1].Cummilative_Total_Dose_Administered) / city.data[city.data.length - 1]['7_Day_Ruuning_Avg_Total_Dose_Administered'] / 365
           }), (_d, i) => { const limit = showMore ? 10 : data.length; return i < limit }).map((d, i) =>
-            <Rows>
+            <Rows key={i}>
               <RowEl>{`${d.District}, ${d.State_Code}`}</RowEl>
               <RowEl>{new Intl.NumberFormat('en-US').format(d.data[d.data.length - 1].Cummilative_Total_Dose_Administered)}</RowEl>
               <RowEl>{new Intl.NumberFormat('en-US').format(d.data[d.data.length - 1].Delta_Total_Dose_Administered)}</RowEl>
@@ -211,7 +211,7 @@ const ListViewForStates = (props: Props) => {
               if (sortedBy === 'TimeNeededOneDose') return (populationData[populationData.findIndex(el => `${el.District_Name}, ${el.State_Name}` === `${city.District}, ${city.State}`)].District_Population - city.data[city.data.length - 1].Cummilative_First_Dose_Administered) / city.data[city.data.length - 1]['7_Day_Ruuning_Avg_Total_Dose_Administered'] / 365
               if (sortedBy === 'TimeFullyVaccinated') return (2 * populationData[populationData.findIndex(el => `${el.District_Name}, ${el.State_Name}` === `${city.District}, ${city.State}`)].District_Population - city.data[city.data.length - 1].Cummilative_Total_Dose_Administered) / city.data[city.data.length - 1]['7_Day_Ruuning_Avg_Total_Dose_Administered'] / 365
             })), (_d, i) => { const limit = showMore ? 10 : data.length; return i < limit }).map((d, i) =>
-              <Rows>
+              <Rows key={i}>
                 <RowEl>{`${d.District}, ${d.State_Code}`}</RowEl>
                 <RowEl>{new Intl.NumberFormat('en-US').format(d.data[d.data.length - 1].Cummilative_Total_Dose_Administered)}</RowEl>
                 <RowEl>{new Intl.NumberFormat('en-US').format(d.data[d.data.length - 1].Delta_Total_Dose_Administered)}</RowEl>
