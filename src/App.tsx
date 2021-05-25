@@ -510,10 +510,7 @@ function App() {
       </H1>
       <div className="container">
         <div>
-          On January 16, 2021, the Government of India and State governments launched one of the most extensive vaccination drives against COVID-19, targeting 300 million beneficiaries of priority group comprising healthcare workers, frontline workers, and population above 50 years of age.
-          <br />
-          <br />
-          The data used are collected using the <a href="https://github.com/covid19india/api" target="_blank" rel="noreferrer">covid19india API</a>. The official government dashboard can be found <a href="https://dashboard.cowin.gov.in/" target="_blank" rel="noreferrer">here</a>.
+          On January 16, 2021, the Government of India and State governments launched one of the most extensive vaccination drives against COVID-19, targeting 300 million beneficiaries of priority group comprising healthcare workers, frontline workers, and population above 50 years of age. Later the government  announced that from May 1, 2021 everyone over the age of 18 will be elligible for vaccine
           <br />
           <br />
         </div>
@@ -581,7 +578,10 @@ function App() {
         </EmailDiv>
         <FooterContainer>
           <BoldSpan>DATA SOURCES</BoldSpan>
-          The data used are collected using the <a href="https://github.com/covid19india/api" target="_blank" rel="noreferrer">covid19india API</a>. In the data there might be some discrepancies like:
+          The official government dashboard can be found <a href="https://dashboard.cowin.gov.in/" target="_blank" rel="noreferrer">here</a>.
+          <br />
+          <br />
+          The data used in this portal is collected using the <a href="https://github.com/covid19india/api" target="_blank" rel="noreferrer">covid19india API</a>. In the data there might be some discrepancies like:
           <ul>
             <li>The age, gender or dose-specific category numbers might not add up to the total doses administered.</li>
             <li>Some states or districts might not have the most recent data.</li>

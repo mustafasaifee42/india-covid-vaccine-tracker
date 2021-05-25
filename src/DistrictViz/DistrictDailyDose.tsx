@@ -37,7 +37,7 @@ const StateDailyDose = (props: Props) => {
               {
                 value: districtData[districtData.length - 1].Cummilative_First_Dose_Administered - districtData[districtData.length - 1].Cummilative_Second_Dose_Administered,
                 color: 'var(--primary-color-light)',
-                key: 'Received 1 Dose:',
+                key: 'Only 1 Dose:',
               },
               {
                 value: districtData[districtData.length - 1].Cummilative_Second_Dose_Administered,
@@ -47,7 +47,7 @@ const StateDailyDose = (props: Props) => {
               {
                 value: districtPopulation - districtData[districtData.length - 1].Cummilative_First_Dose_Administered,
                 color: 'var(--light-gray)',
-                key: 'Received No Doses:',
+                key: 'No Doses:',
               },
             ]
           }

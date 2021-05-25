@@ -37,7 +37,7 @@ const StateDailyDose = (props: Props) => {
               {
                 value: statesData[statesData.length - 1]['First Dose Administered'] - statesData[statesData.length - 1]['Second Dose Administered'],
                 color: 'var(--primary-color-light)',
-                key: 'Received 1 Dose:',
+                key: 'Only 1 Dose:',
               },
               {
                 value: statesData[statesData.length - 1]['Second Dose Administered'],
@@ -47,7 +47,7 @@ const StateDailyDose = (props: Props) => {
               {
                 value: statePopulation - statesData[statesData.length - 1]['First Dose Administered'],
                 color: 'var(--light-gray)',
-                key: 'Received No Doses:',
+                key: 'No Doses:',
               },
             ]
           }
