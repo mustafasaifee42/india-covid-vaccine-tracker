@@ -227,11 +227,16 @@ function App() {
         for (let i = 2; i < dataParsed.length; i++) {
           const dataTemp: DataType[] = []
           const disctrictName = dataParsed[i][5];
-
+          let endIndex = dates.length;
+          for (let j = dates.length; j--; j > 0) {
+            if (dataParsed[i][(j * 10) + 6] !== '0' && dataParsed[i][(j * 10) + 6] !== '') break
+            else endIndex = j;
+          }
+          const datesCropped: string[] = _.dropRight(dates, dates.length - endIndex)
           if (cityList.indexOf(disctrictName) === -1) cityList.push(disctrictName)
           else cityRepeated.push(disctrictName)
           if (statesList.indexOf(dataParsed[i][2]) === -1) statesList.push(dataParsed[i][2])
-          for (let k = 0; k < dates.length; k++) {
+          for (let k = 0; k < datesCropped.length; k++) {
             dataTemp.push({
               date: parseTime(dates[k]) as Date,
               Cummilative_Individuals_Registered: +dataParsed[i][(k * 10) + 6],
@@ -245,14 +250,14 @@ function App() {
               Cummilative_Transgender_Individuals_Vaccinated: +dataParsed[i][(k * 10) + 13],
               Cummilative_Covaxin_Administered: +dataParsed[i][(k * 10) + 14],
               Cummilative_CoviShield_Administered: +dataParsed[i][(k * 10) + 15],
-              Delta_First_Dose_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 9], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 9], 10),
-              Delta_Second_Dose_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 10], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 10], 10),
+              Delta_First_Dose_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 9], 10) : parseInt(dataParsed[i][(k * 10) + 9], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 9], 10),
+              Delta_Second_Dose_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 10], 10) : parseInt(dataParsed[i][(k * 10) + 10], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 10], 10),
               Delta_Total_Dose_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 9], 10) + parseInt(dataParsed[i][(k * 10) + 10], 10) : parseInt(dataParsed[i][(k * 10) + 9], 10) + parseInt(dataParsed[i][(k * 10) + 10], 10) - (parseInt(dataParsed[i][((k - 1) * 10) + 9], 10) + parseInt(dataParsed[i][((k - 1) * 10) + 10], 10)),
-              Delta_Male_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 11], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 11], 10),
-              Delta_Female_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 12], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 12], 10),
-              Delta_Transgender_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 13], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 13], 10),
-              Delta_Covaxin_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 14], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 14], 10),
-              Delta_CoviShield_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 15], 10) : parseInt(dataParsed[i][((k - 1) * 10) + 15], 10),
+              Delta_Male_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 11], 10) : parseInt(dataParsed[i][(k * 10) + 11], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 11], 10),
+              Delta_Female_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 12], 10) : parseInt(dataParsed[i][(k * 10) + 12], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 12], 10),
+              Delta_Transgender_Individuals_Vaccinated: k === 0 ? parseInt(dataParsed[i][(k * 10) + 13], 10) : parseInt(dataParsed[i][(k * 10) + 13], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 13], 10),
+              Delta_Covaxin_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 14], 10) : parseInt(dataParsed[i][(k * 10) + 14], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 14], 10),
+              Delta_CoviShield_Administered: k === 0 ? parseInt(dataParsed[i][(k * 10) + 15], 10) : parseInt(dataParsed[i][(k * 10) + 15], 10) - parseInt(dataParsed[i][((k - 1) * 10) + 15], 10),
               '7_Day_Ruuning_Avg_First_Dose_Administered': k < 7 ? parseInt(dataParsed[i][(k * 10) + 9], 10) / (k + 1) : (parseInt(dataParsed[i][(k * 10) + 9], 10) - parseInt(dataParsed[i][((k - 7) * 10) + 9], 10)) / 7,
               '7_Day_Ruuning_Avg_Second_Dose_Administered': k < 7 ? parseInt(dataParsed[i][(k * 10) + 10], 10) / (k + 1) : (parseInt(dataParsed[i][(k * 10) + 10], 10) - parseInt(dataParsed[i][((k - 7) * 10) + 10], 10)) / 7,
               '7_Day_Ruuning_Avg_Total_Dose_Administered': k < 7 ? (parseInt(dataParsed[i][(k * 10) + 9], 10) + parseInt(dataParsed[i][(k * 10) + 10], 10)) / (k + 1) : ((parseInt(dataParsed[i][(k * 10) + 9], 10) + parseInt(dataParsed[i][(k * 10) + 10], 10)) - (parseInt(dataParsed[i][((k - 7) * 10) + 9], 10) + parseInt(dataParsed[i][((k - 7) * 10) + 10], 10))) / 7,
@@ -272,7 +277,8 @@ function App() {
         cityRepeated.forEach((city: string) => {
           const duplicateCityData = _.filter(dataAsJson, o => o.District === city);
           const dataCombined = []
-          for (let k = 0; k < duplicateCityData[0].data.length; k++) {
+          const len = duplicateCityData[0].data.length <= duplicateCityData[1].data.length ? duplicateCityData[0].data.length : duplicateCityData[1].data.length
+          for (let k = 0; k < len; k++) {
             dataCombined.push({
               date: duplicateCityData[0].data[k].date,
               Cummilative_Individuals_Registered: duplicateCityData[0].data[k].Cummilative_Individuals_Registered + duplicateCityData[1].data[k].Cummilative_Individuals_Registered,
