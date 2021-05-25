@@ -6,7 +6,7 @@ import _ from 'lodash';
 import Select from 'react-dropdown-select';
 import StateDailyDose from './StateDailyDose';
 import BeeSwarmForStates from '../Visualizations/BeeSwarmForStates';
-import Map from '../Visualizations/Map';
+import IndiaTGMViz from '../Visualizations/TileGridMap';
 import ColumnBarChart from '../Visualizations/ColumnBarChart';
 import ListViewForStates from '../Visualizations/ListViewForStates';
 
@@ -86,10 +86,10 @@ const StateViz = (props: Props) => {
     <div className="container">
       <H4>Vaccine across India</H4>
       Across India, <span className="bold tags">{(countryData[countryData.length - 1]['First Dose Administered'] * 100 / INDIAPOPULATION).toFixed(2)}%</span> of the population has been given alteast one dose and <span className="bold tags">{(countryData[countryData.length - 1]['Second Dose Administered'] * 100 / INDIAPOPULATION).toFixed(2)}%</span> of population is fully vaccinated.
-      <Map
+      <IndiaTGMViz
         data={statesData}
         populationData={statePopulation}
-        windowWidth={windowWidth}
+        windowWidth={windowWidth > 700 ? 700 : windowWidth}
       />
       <H4>Time needed to vaccinate the population</H4>
       Based on the current rolling 7-day average of daily vaccines administered the whole population of India will have one dose of vaccine in <span className="bold tags">{(((INDIAPOPULATION - countryData[countryData.length - 1]['Total Individuals Vaccinated']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> and fully vaccinated in next <span className="bold tags">{(((INDIAPOPULATION * 2 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span>. To vaccinate 70% (threshold estimated for herd immunity) of population with one dose <span className="bold tags">{((((0.7 * INDIAPOPULATION) - countryData[countryData.length - 1]['Total Individuals Vaccinated']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> will be needed.

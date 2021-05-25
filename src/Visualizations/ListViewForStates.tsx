@@ -188,7 +188,7 @@ const ListViewForStates = (props: Props) => {
             if (sortedBy === 'TimeNeededOneDose') return (populationData[populationData.findIndex(el => `${el.State_Name}` === `${state.State}`)].State_Population - state.Data[state.Data.length - 1]['First Dose Administered']) / state.Data[state.Data.length - 1]['7-day Average Doses Administered'] / 365
             if (sortedBy === 'TimeFullyVaccinated') return (2 * populationData[populationData.findIndex(el => `${el.State_Name}` === `${state.State}`)].State_Population - state.Data[state.Data.length - 1]['Total Doses Administered']) / state.Data[state.Data.length - 1]['7-day Average Doses Administered'] / 365
           }), (_d, i) => { const limit = showMore ? 10 : data.length; return i < limit }).map((d, i) =>
-            <Rows>
+            <Rows key={i}>
               <RowEl>{d.State}</RowEl>
               <RowEl>{new Intl.NumberFormat('en-US').format(d.Data[d.Data.length - 1]['Total Doses Administered'])}</RowEl>
               <RowEl>{new Intl.NumberFormat('en-US').format(d.Data[d.Data.length - 1]['Delta Doses Administered'])}</RowEl>
@@ -210,7 +210,7 @@ const ListViewForStates = (props: Props) => {
               if (sortedBy === 'TimeNeededOneDose') return (populationData[populationData.findIndex(el => `${el.State_Name}` === `${state.State}`)].State_Population - state.Data[state.Data.length - 1]['First Dose Administered']) / state.Data[state.Data.length - 1]['7-day Average Doses Administered'] / 365
               if (sortedBy === 'TimeFullyVaccinated') return (2 * populationData[populationData.findIndex(el => `${el.State_Name}` === `${state.State}`)].State_Population - state.Data[state.Data.length - 1]['Total Doses Administered']) / state.Data[state.Data.length - 1]['7-day Average Doses Administered'] / 365
             })), (_d, i) => { const limit = showMore ? 10 : data.length; return i < limit }).map((d, i) =>
-              <Rows>
+              <Rows key={i}>
                 <RowEl>{d.State}</RowEl>
                 <RowEl>{new Intl.NumberFormat('en-US').format(d.Data[d.Data.length - 1]['Total Doses Administered'])}</RowEl>
                 <RowEl>{new Intl.NumberFormat('en-US').format(d.Data[d.Data.length - 1]['Delta Doses Administered'])}</RowEl>
