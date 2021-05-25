@@ -551,7 +551,7 @@ function App() {
       <Footer>
         <EmailDiv>
 
-          Please email me at <a href="mailto:saifee.mustafa@gmail.com" target="_blank" rel="noopener noreferrer">saifee.mustafa@gmail.com</a> or connect on <a href="https://twitter.com/mustafasaifee42" target="_blank" rel="noopener noreferrer">twitter</a> for suggestions or queries.
+          Help me improve the Covid-19 Vaccine Tracker. Please email me at <a href="mailto:saifee.mustafa@gmail.com" target="_blank" rel="noopener noreferrer">saifee.mustafa@gmail.com</a> or connect on <a href="https://twitter.com/mustafasaifee42" target="_blank" rel="noopener noreferrer">twitter</a> for suggestions or queries.
           <ShareDiv>
             <span className="footer-start">You got all the way down here, consider sharing the <span aria-label="love-emoji" role="img">💖</span></span>
             {
