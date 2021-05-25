@@ -593,6 +593,9 @@ function App() {
           The data for Mumbai and Mumbai Suburban in the state of Maharashtra are reported under Mumbai.
           <br />
           <br />
+          The layout for tile grid map for India is from <a href="https://www.washingtonpost.com/world/interactive/2021/india-covid-cases-surge/" target="_blank" rel="noopener noreferrer">Washington Post article.</a>
+          <br />
+          <br />
           <hr />
           <br />
           <span className="bold">PRIVACY POLICY</span> <br />This website does not save any information about you. We do not directly use cookies or other tracking technologies. We do, however, use Google Analytics for mere statistical reasons. It is possible that Google Analytics sets cookies or uses other tracking technologies, but this data is not directly accessible by us.

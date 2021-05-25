@@ -260,7 +260,7 @@ const IndiaTGMViz = (props: Props) => {
         <svg width={windowWidth} height={windowWidth * 800 / 700} ref={GraphRef} viewBox={'0 0 700 800'}>
         </svg>
       </GraphArea>
-      <SubNote>The layout of the Tile Grid Map for India is from an <a href="https://www.washingtonpost.com/world/interactive/2021/india-covid-cases-surge/" target="_blank" rel="noopener noreferrer">article from Washington Post</a></SubNote>
+      <SubNote>The layout of the Tile Grid Map for India is from a <a href="https://www.washingtonpost.com/world/interactive/2021/india-covid-cases-surge/" target="_blank" rel="noopener noreferrer">Washington Post article.</a></SubNote>
     </>
   );
 };
