@@ -25,6 +25,10 @@ const H4 = styled.h4`
   margin-bottom: 10px;
 `
 
+const H3 = styled.h3`
+  margin-top: 40px;
+`
+
 const StateViz = (props: Props) => {
   const { statesData, countryData, windowWidth } = props;
 
@@ -69,7 +73,7 @@ const StateViz = (props: Props) => {
 
   return <>
     <div className="container">
-      <h3>Vaccination State by State</h3>
+      <H3>Vaccination State by State</H3>
       <div>
         <span className="bold tags">{percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 1].State}</span> lead the way with <span className="bold tags">{percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 1].Percent.toFixed(2)}%</span> of population vaccinated with atleast one dose, followed by <span className="bold tags">{percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 2].State} ({percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 3].Percent.toFixed(2)}%)</span> and <span className="bold tags">{percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 3].State} ({percentPopulationVaccinatedSorted[percentPopulationVaccinatedSorted.length - 3].Percent.toFixed(2)}%)</span>
       </div>
