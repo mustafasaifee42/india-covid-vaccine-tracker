@@ -4,16 +4,31 @@ import { timeFormat } from 'd3-time-format';
 import BarGraphEl from '../Visualizations/BarGraphEl';
 import DailyDoseViz from '../Visualizations/DailyDoseViz';
 import AreaGraph from '../Visualizations/AreaGraph';
+import styled from 'styled-components';
+import _ from 'lodash';
+import ProcurementData from '../data/procurementData.json';
 
 interface Props {
   countryData: CountryStateWithDeltaDataType[];
   windowWidth: number;
 }
 
+const SubNote = styled.span`
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  color: var(--gray);
+`
+
+const SubNoteBody = styled.span`
+  font-style: italic;
+  color: var(--dark-gray);
+`
 
 const CountrySection = (props: Props) => {
   const { countryData, windowWidth } = props
   const formatTime = timeFormat('%B %d, %Y');
+  const totalProcuremnt = _.sumBy(ProcurementData, 'Doses committed (in millions)')
   return <>
     <div className="container">
       In India, the total doses administerd by {formatTime(countryData[countryData.length - 1].Date)} are <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Doses Administered'])}</span>, out of which <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['First Dose Administered'])}</span> are first dose and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Second Dose Administered'])}</span> are second dose. On {formatTime(countryData[countryData.length - 1].Date)} <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Doses Administered'])}</span> doses were administered in India.
@@ -112,13 +127,65 @@ const CountrySection = (props: Props) => {
       windowWidth={windowWidth}
       data={countryData}
     />
-    <br />
-    <br />
     <div className="container">
+      <h3>Vaccine Procurement <SubNote>Last Updated: 1 June 2021</SubNote></h3>
       India has so far given doses of three approved vaccines - CoviShield, Covaxin, and Sputnik V. CoviShield has been developed by the Oxford-AstraZeneca and is being manufactured by the Serum Institute of India (SII). Covaxin has been developed by Hyderabad-based Bharat Biotech International Ltd in association with the Indian Council of Medical Research (ICMR) and the National Institute of Virology (NIV). Sputnik V is developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia.
       <br />
       <br />
-      India till now has administered <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total CoviShield Administered'])}</span> doses of CoviShield, <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Covaxin Administered'])}</span> doses of Covaxin and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Sputnik V Administered'])}</span> doses of Sputnuk V.
+      India has so far has finalised procurement of <span className="tags bold">{new Intl.NumberFormat('en-US').format(totalProcuremnt)} Million</span> doses of three approved vaccines <SubNoteBody>(this doesn't not include the 500 million doeses of Novavox vaccine as the procurement is unclear)</SubNoteBody>.
+      <br />
+      <br />
+      The current procurement is sufficient to fully vaccinated <span className="bold tags">{(totalProcuremnt * 1000000 * 100 / (INDIAPOPULATION * 2)).toFixed(2)} %</span> of population of India i.e. <span className="bold tags">{(totalProcuremnt / 2)} Million</span> people since all the vaccines are 2 dose vaccines. <SubNoteBody>Note that procurement does not mean that vaccination has been delivered to India but it means that orders have been placed by India.</SubNoteBody>
+      <BarGraphEl
+        data={
+          [
+            {
+              value: totalProcuremnt * 1000000,
+              color: 'var(--primary-color-light)',
+              key: 'Population Covered:',
+            },
+            {
+              value: (INDIAPOPULATION * 2) - totalProcuremnt * 1000000,
+              color: 'var(--light-gray)',
+              key: 'Population Not Covered:',
+            },
+          ]
+        }
+        totalValue={INDIAPOPULATION * 2}
+        title={'Population Covered'}
+      />
+      India has so far used <span className="tags bold">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Doses Administered'])} ({(countryData[countryData.length - 1]['Total Doses Administered'] * 100 / (totalProcuremnt * 1000000)).toFixed(2)}%)</span> doses out of the procured dosage.
+      <BarGraphEl
+        data={
+          [
+            {
+              value: countryData[countryData.length - 1]['Total Doses Administered'],
+              color: 'var(--primary-color-light)',
+              key: 'Procured and used:',
+            },
+            {
+              value: totalProcuremnt * 1000000 - countryData[countryData.length - 1]['Total Doses Administered'],
+              color: 'var(--light-gray)',
+              key: 'Produred but not used:',
+            },
+          ]
+        }
+        totalValue={totalProcuremnt * 1000000}
+        title={'Dose Usage'}
+      />
+      With the current 7 days running average of vaccination the remaining procured vaccines with last <span className="bold tags">{new Intl.NumberFormat('en-US').format(Math.ceil((totalProcuremnt * 1000000 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']))}</span> more days.{' '}
+      <SubNoteBody>
+        Note the current stock of vaccine available with the government will last for less time as all the vaccines procured are not yet delivered.
+        <br />
+        <br />
+        Please note procurement does not mean delivered, it just means thats the orders have been placed. So the no. of vaccines available is less than the no. procured.
+        <br />
+        <br />
+        Also note there are some conflicting reports about some procurements. One of the order of 11 Million doses of AstraZeneca/Oxford CoviShield vaccine is based on Reuters and Livemint reports from January. However, there are other reports that suggest that number of doses ordered could be 56 Million.
+      </SubNoteBody>
+      <br />
+      <br />
+    India till now has administered <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total CoviShield Administered'])}</span> doses of CoviShield, <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Covaxin Administered'])}</span> doses of Covaxin and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Sputnik V Administered'])}</span> doses of Sputnuk V.
     </div>
     <br />
     <AreaGraph
