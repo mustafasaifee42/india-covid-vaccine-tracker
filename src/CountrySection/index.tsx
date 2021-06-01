@@ -2,6 +2,7 @@ import { CountryStateWithDeltaDataType } from '../types';
 import { INDIAPOPULATION } from '../Constants';
 import { timeFormat } from 'd3-time-format';
 import BarGraphEl from '../Visualizations/BarGraphEl';
+import BarGraphElNoPercent from '../Visualizations/BarGraphElNoPercent';
 import DailyDoseViz from '../Visualizations/DailyDoseViz';
 import AreaGraph from '../Visualizations/AreaGraph';
 import styled from 'styled-components';
@@ -201,16 +202,39 @@ const CountrySection = (props: Props) => {
         totalValue={totalProcuremnt * 1000000}
         title={'Dose Usage'}
       />
-      With the current 7 days running average of vaccination the remaining procured vaccines with last <span className="bold tags">{new Intl.NumberFormat('en-US').format(Math.ceil((totalProcuremnt * 1000000 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']))}</span> more days.{' '}
-      <SubNoteBody>
-        Note the current stock of vaccine available with the government will last for less time as all the vaccines procured are not yet delivered.
-      </SubNoteBody>
-      <br />
-      <br />
       India till now has administered <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total CoviShield Administered'])}</span> doses of CoviShield, <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Covaxin Administered'])}</span> doses of Covaxin and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Sputnik V Administered'])}</span> doses of Sputnuk V.
       <br />
       <br />
       India has already administerd <span className="bold tags">{(countryData[countryData.length - 1]['Total CoviShield Administered'] * 100 / (CoviShieldTotal * 1000000)).toFixed(2)} %</span> of procured doses of CoviShield, <span className="bold tags">{(countryData[countryData.length - 1]['Total Covaxin Administered'] * 100 / (CovaxinTotal * 1000000)).toFixed(2)} %</span> of procured doses of Covaxin, and <span className="bold tags">{(countryData[countryData.length - 1]['Total Sputnik V Administered'] * 100 / (SputknikTotal * 1000000)).toFixed(2)} %</span> of procured doses of Sputnik V.
+      <br />
+      <br />
+      With the current 7 days running average of vaccination the remaining procured vaccines with last <span className="bold tags">{new Intl.NumberFormat('en-US').format(Math.ceil((totalProcuremnt * 1000000 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']))}</span> more days.{' '}
+      <SubNoteBody>
+        Note the current stock of vaccine available with the government will last for less time as all the vaccines procured are not yet delivered.
+      </SubNoteBody>
+      <BarGraphElNoPercent
+        data={
+          [
+            {
+              value: ((CoviShieldTotal * 1000000) - countryData[countryData.length - 1]['Total CoviShield Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
+              color: '#8624f5',
+              key: `CoviShield`,
+            },
+            {
+              value: ((CovaxinTotal * 1000000) - countryData[countryData.length - 1]['Total Covaxin Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
+              color: '#1fc3aa',
+              key: `Covaxin`,
+            },
+            {
+              value: ((SputknikTotal * 1000000) - countryData[countryData.length - 1]['Total Sputnik V Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
+              color: '#176884',
+              key: `Sputnik V`,
+            },
+          ]
+        }
+        title={'Days the Remaining Doses Will Last'}
+        subNote={'Based on the 7-day running avg. doses administered'}
+      />
     </div>
     <br />
     <AreaGraph
