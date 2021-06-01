@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --white: #ffffff;
     --black: #2c2c2c;
-    --dark-gray: #999999;
+    --dark-gray: #666666;
     --primary-color-very-light: #ffc282;
     --primary-color-light: #ff9f51;
     --primary-color: #ef5d09;
@@ -581,7 +581,7 @@ function App() {
           The official government dashboard can be found <a href="https://dashboard.cowin.gov.in/" target="_blank" rel="noreferrer">here</a>.
           <br />
           <br />
-          The data used in this portal is collected using the <a href="https://github.com/covid19india/api" target="_blank" rel="noreferrer">covid19india API</a>. In the data there might be some discrepancies like:
+          The vaccination data used in this portal is collected using the <a href="https://github.com/covid19india/api" target="_blank" rel="noreferrer">covid19india API</a>. In the data there might be some discrepancies like:
           <ul>
             <li>The age, gender or dose-specific category numbers might not add up to the total doses administered.</li>
             <li>Some states or districts might not have the most recent data.</li>
@@ -591,6 +591,9 @@ function App() {
           <br />
           <br />
           The data for Mumbai and Mumbai Suburban in the state of Maharashtra are reported under Mumbai.
+          <br />
+          <br />
+          The procurement data is from <a href="https://www.knowledgeportalia.org/" target="_blank" rel="noopener noreferrer">The Knowledge Network on Innovation and Access to Medicines</a>, project of the <a href="https://www.graduateinstitute.ch/globalhealth" target="_blank" rel="noopener noreferrer">Global Health Centre at the Graduate Institute, Geneva</a>. The source of this data is media reports, government publication and pharma companies press releases. The data sheet can be downloaded from <a href="https://da7af2c8-d9b0-47a3-a3f6-89c3c3bfa02c.filesusr.com/ugd/356854_ab2882e3e56d4ad6a7dc6088f86699fa.xlsx?dn=COVID19%20Vaccine%20Arrangements_28%20May%202021" target="_blank" rel="noopener noreferrer">here</a>
           <br />
           <br />
           The layout for tile grid map for India is from <a href="https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/india/" target="_blank" rel="noopener noreferrer">Reuter's article</a> designed by Reuter's design team.
