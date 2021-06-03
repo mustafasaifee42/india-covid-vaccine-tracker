@@ -587,13 +587,13 @@ function App() {
             <li>Some states or districts might not have the most recent data.</li>
             <li>In some cases there might be a decline in the total no. of doses administered.</li>
           </ul>
-          <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RXYJR6" target="_blank" rel="noreferrer">The population estimates for districts and state by Wang, Weiyu; Kim, Rockli; Subramanian, S V, 2021 from Harvard Dataverse</a> is used to calculate the precentages and time needed to vaccinate the whole population.
+          <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RXYJR6" target="_blank" rel="noreferrer">The population estimates for districts and state by Wang, Weiyu; Kim, Rockli; Subramanian, S V, 2021 from Harvard Dataverse</a> is used to calculate the precentages and time needed to vaccinate the whole population. The population estimates are for the year 2020.
           <br />
           <br />
           The data for Mumbai and Mumbai Suburban in the state of Maharashtra are reported under Mumbai.
           <br />
           <br />
-          The procurement data is from <a href="https://www.knowledgeportalia.org/" target="_blank" rel="noopener noreferrer">The Knowledge Network on Innovation and Access to Medicines</a>, project of the <a href="https://www.graduateinstitute.ch/globalhealth" target="_blank" rel="noopener noreferrer">Global Health Centre at the Graduate Institute, Geneva</a>. The source of this data is media reports, government publication and pharma companies press releases. The data sheet can be downloaded from <a href="https://da7af2c8-d9b0-47a3-a3f6-89c3c3bfa02c.filesusr.com/ugd/356854_ab2882e3e56d4ad6a7dc6088f86699fa.xlsx?dn=COVID19%20Vaccine%20Arrangements_28%20May%202021" target="_blank" rel="noopener noreferrer">here</a>
+          The procurement data is from <a href="https://www.knowledgeportalia.org/" target="_blank" rel="noopener noreferrer">The Knowledge Network on Innovation and Access to Medicines</a>, project of the <a href="https://www.graduateinstitute.ch/globalhealth" target="_blank" rel="noopener noreferrer">Global Health Centre at the Graduate Institute, Geneva</a>. The source of this data is media reports, government publication and pharma companies press releases. The data sheet can be downloaded from <a href="https://www.knowledgeportalia.org/covid19-vaccine-arrangements" target="_blank" rel="noopener noreferrer">here</a>
           <br />
           <br />
           The layout for tile grid map for India is from <a href="https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/india/" target="_blank" rel="noopener noreferrer">Reuter's article</a> designed by Reuter's design team.
