@@ -62,6 +62,9 @@ const CountrySection = (props: Props) => {
         }
         totalValue={INDIAPOPULATION}
       />
+      <SubNoteBody>All population estimates are for 2020</SubNoteBody>
+      <br />
+      <br />
       The government of India announced that from May 1, 2021 everyone over the age of 18 will be elligible for vaccine.
       <BarGraphEl
         data={
@@ -133,7 +136,7 @@ const CountrySection = (props: Props) => {
       data={countryData}
     />
     <div className="container">
-      <h3>Vaccine Procurement <SubNote>Last Updated: 1 June 2021</SubNote></h3>
+      <h3>Vaccine Procurement <SubNote>Last Updated: 28 May 2021</SubNote></h3>
       India has so far given doses of three approved vaccines:
       <ul>
         <li><span className="bold">CoviShield</span>: Developed by the Oxford-AstraZeneca and manufactured by the Serum Institute of India</li>
