@@ -1,4 +1,5 @@
 import { CountryStateWithDeltaDataType } from '../types';
+import { useState } from 'react';
 import { INDIAPOPULATION } from '../Constants';
 import { timeFormat } from 'd3-time-format';
 import BarGraphEl from '../Visualizations/BarGraphEl';
@@ -27,13 +28,49 @@ const SubNoteBody = styled.span`
   color: var(--dark-gray);
 `
 
+const P = styled.p`
+  line-height: 44px;
+  margin: 0;
+`;
+
+const DateInput = styled.input`
+  font-family: 'IBM Plex Sans';
+  width: 140px;
+  font-size: 16px;
+  border: 1px solid var(--black);
+  border-radius: 3px;
+  font-weight: 700;
+  color: var(--primary-color);
+  background-color: var(--light-gray);
+  padding: 0 0 0 5px;
+`
+
+const CalculatorDiv = styled.div`
+  border-radius: 5px;
+  padding: 20px;
+  background-color: var(--very-light-gray);
+  border: 1px solid var(--light-gray);
+  box-shadow: 0 2px 5px 1px var(--gray);
+`;
+
+const H3 = styled.h3`
+  margin-top: 40px;
+`;
+
 const CountrySection = (props: Props) => {
-  const { countryData, windowWidth } = props
+  const { countryData, windowWidth } = props;
+  const [sliderValue, setSliderValue] = useState(70);
+  const someDate = new Date();
+  const numberOfDaysToAdd = 100;
+  someDate.setDate(someDate.getDate() + numberOfDaysToAdd)
+  const [dateValue, setDateValue] = useState(someDate);
   const formatTime = timeFormat('%B %d, %Y');
+  const formatDate = timeFormat('%Y-%m-%d');
   const totalProcuremnt = _.sumBy(ProcurementData, 'Doses committed (in millions)');
   const CovaxinTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Bharat Biotech'), 'Doses committed (in millions)');
-  const CoviShieldTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'AstraZeneca/Oxford'), 'Doses committed (in millions)');;
-  const SputknikTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Gamaleya'), 'Doses committed (in millions)');;
+  const CoviShieldTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'AstraZeneca/Oxford'), 'Doses committed (in millions)');
+  const SputknikTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Gamaleya'), 'Doses committed (in millions)');
+
   return <>
     <div className="container">
       In India, the total doses administerd by {formatTime(countryData[countryData.length - 1].Date)} are <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Total Doses Administered'])}</span>, out of which <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['First Dose Administered'])}</span> are first dose and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Second Dose Administered'])}</span> are second dose. On {formatTime(countryData[countryData.length - 1].Date)} <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Doses Administered'])}</span> doses were administered in India.
@@ -123,20 +160,48 @@ const CountrySection = (props: Props) => {
         title={'Sex wise distribution of vaccine'}
       />
       <h3>Doses administered by day</h3>
-      <div>
-        In India, the total doses administerd on {formatTime(countryData[countryData.length - 1].Date)} were <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Doses Administered'])}</span>, out of which <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta First Dose Administered'])}</span> were first dose and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Second Dose Administered'])}</span> were second dose.
-        <br />
-        <br />
-        Current rolling 7-day average of daily COVID-19 vaccines administered is <span className="bold tags">{new Intl.NumberFormat('en-US').format(parseFloat((countryData[countryData.length - 1]['7-day Average Doses Administered']).toFixed(2)))}</span>. At this rate the whole population of India will have one dose of vaccine in <span className="bold tags">{(((INDIAPOPULATION - countryData[countryData.length - 1]['Total Individuals Vaccinated']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> and fully vaccinated in next <span className="bold tags">{(((INDIAPOPULATION * 2 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span>. To fully vaccinate 70% (threshold estimated for herd immunity) of population <span className="bold tags">{((((0.7 * 2 * INDIAPOPULATION) - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> will be needed.
-      </div>
-      <br />
+      In India, the total doses administerd on {formatTime(countryData[countryData.length - 1].Date)} were <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Doses Administered'])}</span>, out of which <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta First Dose Administered'])}</span> were first dose and <span className="bold tags">{new Intl.NumberFormat('en-US').format(countryData[countryData.length - 1]['Delta Second Dose Administered'])}</span> were second dose.
     </div>
+    <br />
+    <br />
     <DailyDoseViz
       windowWidth={windowWidth}
       data={countryData}
     />
     <div className="container">
-      <h3>Vaccine Procurement <SubNote>Last Updated: 28 May 2021</SubNote></h3>
+      <br />
+      <br />
+      Current rolling 7-day average of daily COVID-19 vaccines administered is <span className="bold tags">{new Intl.NumberFormat('en-US').format(parseFloat((countryData[countryData.length - 1]['7-day Average Doses Administered']).toFixed(2)))}</span>. At this rate the whole population of India will have one dose of vaccine in <span className="bold tags">{(((INDIAPOPULATION - countryData[countryData.length - 1]['Total Individuals Vaccinated']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> and fully vaccinated in next <span className="bold tags">{(((INDIAPOPULATION * 2 - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span>. To fully vaccinate 70% (threshold estimated for herd immunity) of population <span className="bold tags">{((((0.7 * 2 * INDIAPOPULATION) - countryData[countryData.length - 1]['Total Doses Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered']) / 365).toFixed(1)} years</span> will be needed.
+      <br />
+      <br />
+      <CalculatorDiv>
+        <P>
+          To fully vaccinate
+          <input
+            className="slider"
+            type="range"
+            min="20"
+            max="100"
+            value={sliderValue}
+            onChange={(event) => {
+              setSliderValue(parseFloat(event.target.value))
+            }}
+            step="1"
+          />
+          <span className="bold tags">{sliderValue}%</span> of population by{' '}
+          <DateInput
+            type="date"
+            value={formatDate(dateValue)}
+            min={formatDate(new Date())}
+            max="2025-12-31"
+            onChange={(event) => {
+              setDateValue(new Date(event.target.value))
+            }}
+          />, <span className="tags bold">{new Intl.NumberFormat('en-US').format(Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered'])}</span> more doses are need to administer in next <span className="bold tags">{Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000))} days</span>, at a rate of <span className="tags bold">{new Intl.NumberFormat('en-US').format(Math.ceil((Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered']) / (Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000)))))}</span> doses per day ( <span className="tags bold">{(Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered']) / (Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000))) > countryData[countryData.length - 1]['7-day Average Doses Administered'] ? '▲' : '▼'} {(((Math.ceil((Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered']) / (Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000)))) - countryData[countryData.length - 1]['7-day Average Doses Administered']) * 100) / countryData[countryData.length - 1]['7-day Average Doses Administered']).toFixed(1)}%</span>
+          {(Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered']) / (Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000))) > countryData[countryData.length - 1]['7-day Average Doses Administered'] ? ' increase' : ' decrease'} from current average).
+        </P>
+      </CalculatorDiv>
+      <H3>Vaccine Procurement <SubNote>Last Updated: 28 May 2021</SubNote></H3>
       India has so far given doses of three approved vaccines:
       <ul>
         <li><span className="bold">CoviShield</span>: Developed by the Oxford-AstraZeneca and manufactured by the Serum Institute of India</li>
