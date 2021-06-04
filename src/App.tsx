@@ -131,6 +131,32 @@ const GlobalStyle = createGlobalStyle`
     height: 36px !important;
     fill: var(--gray) !important;
   }
+
+  .slider {
+      overflow: hidden;
+      width: 125px;
+      -webkit-appearance: none;
+      background-color: var(--light-gray);
+      display: inline-block;
+      border-radius: 10px;
+      margin: 0 5px;
+    }
+
+  .slider::-webkit-slider-runnable-track {
+    height: 12px;
+    -webkit-appearance: none;
+    color: var(--secondary-color);
+  }
+
+  .slider::-webkit-slider-thumb {
+    width: 12px;
+    height: 12px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: var(--primary-color);
+    border-radius: 40px;
+    box-shadow: -86px 0 0 80px var(--primary-color-very-light);
+  }
 `;
 
 const Error = styled.div`
