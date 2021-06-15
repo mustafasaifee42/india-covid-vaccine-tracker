@@ -10,6 +10,7 @@ interface Props {
 interface BarProps {
   color: string;
   percent: number;
+  textColor: string;
 }
 
 const GraphUnit = styled.div`
@@ -41,7 +42,7 @@ const BarEl = styled.div`
 
 const Bars = styled.div<BarProps>`
   background-color: ${props => props.color};
-  color: white;
+  color: ${props => props.textColor};
   font-weight: bold;
   font-size: 14px;
   padding: 10px;
@@ -72,7 +73,7 @@ const BarGraphEl = (props: Props) => {
       {data.map((d, i) =>
         <BarEl key={i}>
           <BarTitle color={d.color}>{d.key}</BarTitle>
-          <Bars color={d.color} percent={d.value / maxValue}>{(d.value).toFixed(1)} days</Bars>
+          <Bars color={d.value <= 0 ? 'white' : d.color} textColor={d.value > 0 ? 'white' : d.color} percent={d.value < 0 ? 1 : d.value / maxValue}>{d.value < 0 ? '0' : (d.value).toFixed(1)} days</Bars>
         </BarEl>)}
     </BarGraphContainer>
   </GraphUnit>
