@@ -11,10 +11,10 @@
     {
         "Vaccine candidate": "AstraZeneca/Oxford",
         "Developer Location": "United Kingdom/Sweden",
-        "Doses committed (in millions)": 11,
+        "Doses committed (in millions)": 56,
         "Price (in USD million)": 29.92,
         "Price/Dose (in USD)": 2.72,
-        "Notes": "Total order and price per dose based on Reuters and Livemint reports from January. However, there are other reports that suggest that number of doses ordered could be 56m.",
+        "Notes": "Total order and price per dose based  are based on the Hindu Report. However, there are other reports (Reuters and Livemint reports from January) that suggest that number of doses ordered could be 11m.",
         "Sources": "https://www.livemint.com/news/india/at-what-cost-is-govt-sourcing-serum-s-covishield-bharat-biotech-s-covaxin-explained-11610450615485.html ; https://www.reuters.com/article/health-coronavirus-vaccine-india/india-signs-purchase-order-with-serum-for-astrazeneca-vaccine-source-idUSKBN29G126 ; https://www.thehindu.com/news/national/vaccines-bought-first-using-pm-cares-funds-cost-centre-more/article34508997.ece"
     },
     {
@@ -44,5 +44,14 @@
         "Price/Dose (in USD)": 9.75,
         "Notes": "Doses are currently being imported of which 0.15m doses have been delivered. The total 100m doses are based on Dr Reddy's agreement with RDIF. Reuters has reported that the vaccine will be priced at USD 13.58. Price based on RDIF's statement that the vaccine is being sold in all markets for 9.75 USD/dose.",
         "Sources": "https://www.reuters.com/world/india/pfizer-talks-with-india-over-expedited-approval-covid-19-vaccine-2021-05-03/ ; https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-get-36-mln-doses-sputnik-v-vaccine-next-few-months-2021-05-14/ ; https://www.ft.com/content/ffe40c7d-c418-4a93-a202-5ee996434de7"
+    },
+    {
+        "Vaccine candidate": "Corbevax",
+        "Developer Location": "India",
+        "Doses committed (in millions)": 300,
+        "Price (in USD million)": 205.60,
+        "Price/Dose (in USD)": 0.69,
+        "Notes": "Purchase order placed while vaccine is still in Phase 3 trials. Exchange rate based on Reuter's report.",
+        "Sources": "https://www.reuters.com/world/india/india-signs-deal-with-domestic-vaccine-maker-biological-e-300-mln-doses-2021-06-03/ ; https://www.livemint.com/news/india/govt-signs-first-advance-purchase-agreement-with-biological-e-worth-1-500-crore-11622708089645.html"
     }
 ]

@@ -166,7 +166,7 @@ const IndiaTGMViz = (props: Props) => {
         .domain([data[0].Data[0].Date, data[0].Data[data[0].Data.length - 1].Date]);
       const yScale = scaleLinear()
         .range([0, graphHeight])
-        .domain([option === 'Atleast One Dose' ? 40000 : option === 'Fully Vaccinated' ? 20000 : 1500, 0] as number[]);
+        .domain([option === 'Atleast One Dose' ? 70000 : option === 'Fully Vaccinated' ? 20000 : 1500, 0] as number[]);
       const group = selectAll('.stateGroup')
         .append('g')
         .attr('class', 'stateGraph')
@@ -180,7 +180,7 @@ const IndiaTGMViz = (props: Props) => {
         .style('color', 'var(--gray)')
         .style('pointer-events', 'none')
         .attr('transform', `translate(0,5)`)
-        .call(axisRight(yScale).ticks(option === 'Atleast One Dose' ? 2 : option === 'Fully Vaccinated' ? 2 : 3).tickFormat(format('.2s')).tickSize(width + margin.left + margin.right))
+        .call(axisRight(yScale).ticks(option === 'Atleast One Dose' ? 3 : option === 'Fully Vaccinated' ? 2 : 3).tickFormat(format('.2s')).tickSize(width + margin.left + margin.right))
         .call((tickGroup) => {
           tickGroup.select('.domain').remove();
           tickGroup.selectAll('.tick line')

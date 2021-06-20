@@ -70,6 +70,7 @@ const CountrySection = (props: Props) => {
   const CovaxinTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Bharat Biotech'), 'Doses committed (in millions)');
   const CoviShieldTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'AstraZeneca/Oxford'), 'Doses committed (in millions)');
   const SputknikTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Gamaleya'), 'Doses committed (in millions)');
+  const CorbevaxTotal = _.sumBy(_.filter(ProcurementData, d => d['Vaccine candidate'] === 'Corbevax'), 'Doses committed (in millions)');
 
   return <>
     <div className="container">
@@ -201,14 +202,15 @@ const CountrySection = (props: Props) => {
           {(Math.ceil((sliderValue / 100) * INDIAPOPULATION * 2) - countryData[countryData.length - 1]['Total Doses Administered']) / (Math.ceil((dateValue.getTime() - new Date().getTime()) / (3600 * 24 * 1000))) > countryData[countryData.length - 1]['7-day Average Doses Administered'] ? ' increase' : ' decrease'} from current average).
         </P>
       </CalculatorDiv>
-      <H3>Vaccine Procurement <SubNote>Last Updated: 28 May 2021</SubNote></H3>
-      India has so far given doses of three approved vaccines:
+      <H3>Vaccine Procurement <SubNote>Last Updated: June 17, 2021</SubNote></H3>
+      India has so far given doses of three approved vaccines and pre ordered one vaccine still under Phase 3 trial:
       <ul>
         <li><span className="bold">CoviShield</span>: Developed by the Oxford-AstraZeneca and manufactured by the Serum Institute of India</li>
         <li><span className="bold">Covaxin</span>: Developed by Bharat Biotech International Ltd in association with the Indian Council of Medical Research and National Institute of Virology</li>
         <li><span className="bold">Sputnik V</span>: Developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia</li>
+        <li><span className="bold">Corbevax</span>: Developed by Indian biopharmacutical firm Biological E. Limited, the Baylor College of Medicine in Houston, and Dynavax Technologies. <span className="italics">Purchase order placed while vaccine is still in Phase 3 trials.</span></li>
       </ul>
-      India has so far has finalised procurement of <span className="tags bold">{new Intl.NumberFormat('en-US').format(totalProcuremnt)} Million</span> doses of three approved vaccines.
+      India has so far has finalised purchase of <span className="tags bold">{new Intl.NumberFormat('en-US').format(totalProcuremnt)} Million</span> doses of three approved vaccines. <SubNoteBody>Please note: The procurement of 300 million doses of Corbevax out of {new Intl.NumberFormat('en-US').format(totalProcuremnt)} Million doses will arrive in August and are not in use, as the vaccine is still under Pase 3 trials.</SubNoteBody>
       <BarGraphEl
         data={
           [
@@ -227,9 +229,14 @@ const CountrySection = (props: Props) => {
               color: '#176884',
               key: `Sputnik V (${SputknikTotal} mil):`,
             },
+            {
+              value: CorbevaxTotal,
+              color: '#ce440b',
+              key: `Corbevax (${CorbevaxTotal} mil):`,
+            }
           ]
         }
-        totalValue={CoviShieldTotal + CovaxinTotal + SputknikTotal}
+        totalValue={CoviShieldTotal + CovaxinTotal + SputknikTotal + CorbevaxTotal}
         title={'Procurement Based on Manufacturer'}
       />
       The current procurement is sufficient to fully vaccinated <span className="bold tags">{(totalProcuremnt * 1000000 * 100 / (INDIAPOPULATION * 2)).toFixed(2)} %</span> of population of India i.e. <span className="bold tags">{(totalProcuremnt / 2)} Million</span> people since all the vaccines are 2 dose vaccines. <SubNoteBody>Note that procurement does not mean that vaccination has been delivered to India but it means that orders have been placed by India.</SubNoteBody>
@@ -286,23 +293,29 @@ const CountrySection = (props: Props) => {
             {
               value: ((CoviShieldTotal * 1000000) - countryData[countryData.length - 1]['Total CoviShield Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
               color: '#8624f5',
-              key: `CoviShield`,
+              key: 'CoviShield',
             },
             {
               value: ((CovaxinTotal * 1000000) - countryData[countryData.length - 1]['Total Covaxin Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
               color: '#1fc3aa',
-              key: `Covaxin`,
+              key: 'Covaxin',
             },
             {
               value: ((SputknikTotal * 1000000) - countryData[countryData.length - 1]['Total Sputnik V Administered']) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
               color: '#176884',
-              key: `Sputnik V`,
+              key: 'Sputnik V',
+            },
+            {
+              value: (CorbevaxTotal * 1000000) / countryData[countryData.length - 1]['7-day Average Doses Administered'],
+              color: '#ce440b',
+              key: 'Corbevax*',
             },
           ]
         }
         title={'Days the Remaining Doses Will Last'}
         subNote={'Based on the 7-day running avg. doses administered'}
       />
+      <SubNoteBody>*No doses of Corbevax has been administered yet, as the vaccine is still under Phase 3 trial and the order is pre-order supoose to be delivered around August.</SubNoteBody>
     </div>
     <br />
     <AreaGraph
@@ -316,7 +329,7 @@ const CountrySection = (props: Props) => {
         Please note procurement does not mean delivered, it just means thats the orders have been placed. So the no. of vaccines available is less than the no. procured.
         <br />
         <br />
-        Also note there are some conflicting reports about some procurements. One of the order of 11 Million doses of AstraZeneca/Oxford CoviShield vaccine is based on Reuters and Livemint reports from January. However, there are other reports that suggest that number of doses ordered could be 56 Million.
+        Total order and price per dose based  are based on the Hindu Report. However, there are other reports (Reuters and Livemint reports from January) that suggest that number of doses ordered could be 11m.
         <br />
         <br />
         This procurement data doesn't not include the 500 million doses of Novavox vaccine as the procurement is unclear.
