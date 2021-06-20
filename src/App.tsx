@@ -148,6 +148,10 @@ const GlobalStyle = createGlobalStyle`
     color: var(--secondary-color);
   }
 
+  .italics{
+    font-style: italic;
+  }
+
   .slider::-webkit-slider-thumb {
     width: 12px;
     height: 12px;
