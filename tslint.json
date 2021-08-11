@@ -1,34 +1,17 @@
 {
   "defaultSeverity": "error",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:recommended"],
   "jsRules": {},
   "rules": {
     "arrow-parens": false,
     "arrow-return-shorthand": true,
     "ban-types": {
       "options": [
-        [
-          "Object",
-          "Avoid using the `Object` type. Did you mean `object`?"
-        ],
-        [
-          "Boolean",
-          "Avoid using the `Boolean` type. Did you mean `boolean`?"
-        ],
-        [
-          "Number",
-          "Avoid using the `Number` type. Did you mean `number`?"
-        ],
-        [
-          "String",
-          "Avoid using the `String` type. Did you mean `string`?"
-        ],
-        [
-          "Symbol",
-          "Avoid using the `Symbol` type. Did you mean `symbol`?"
-        ],
+        ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
+        ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+        ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+        ["String", "Avoid using the `String` type. Did you mean `string`?"],
+        ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"],
         [
           "Function",
           "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
@@ -38,39 +21,22 @@
     "array-type": false,
     "class-name": true,
     "interface-name": false,
-    "jsx-curly-spacing": [
-      "always"
-    ],
+    "jsx-curly-spacing": ["always"],
     "jsx-no-lambda": false,
     "jsx-no-multiline-js": false,
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double"
-    ],
     "jsx-wrap-multiline": false,
-    "max-classes-per-file": [
-      true,
-      5,
-      "exclude-class-expressions"
-    ],
+    "max-classes-per-file": [true, 5, "exclude-class-expressions"],
     "member-access": false,
     "no-bitwise": false,
     "no-duplicate-imports": true,
     "no-duplicate-switch-case": true,
-    "no-empty": [
-      true,
-      "allow-empty-functions"
-    ],
+    "no-empty": [true, "allow-empty-functions"],
     "no-empty-interface": false,
     "no-floating-promises": true,
     "no-for-in": true,
     "no-return-await": true,
     "object-literal-sort-keys": false,
-    "only-arrow-functions": [
-      true,
-      "allow-declarations"
-    ],
+    "only-arrow-functions": [true, "allow-declarations"],
     "ordered-imports": false,
     "prefer-conditional-expression": true,
     "prefer-object-spread": true,
