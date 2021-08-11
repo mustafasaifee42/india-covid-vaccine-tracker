@@ -1,57 +1,57 @@
 [
-    {
-        "Vaccine candidate": "AstraZeneca/Oxford",
-        "Developer Location": "United Kingdom/Sweden",
-        "Doses committed (in millions)": 210,
-        "Price (in USD million)": 445.2,
-        "Price/Dose (in USD)": 2.12,
-        "Notes": "Two separate orders for 20m and 50m in March and April 2021. Confirmed in a press release in May 2021. Exchange rate used, 1INR = 0.013487 USD",
-        "Sources": "https://www.newindianexpress.com/nation/2021/mar/16/centreplaces-new-purchase-order-with-serum-institute-of-india-for-10-crore-doses-of-covishield-vacc-2277418.html ; https://www.theguardian.com/world/2020/oct/20/india-at-heart-of-global-efforts-to-produce-covid-vaccine ; https://www.bloomberg.com/features/2020-covid-vaccine-serum-india/ ; https://pib.gov.in/PressReleasePage.aspx?PRID=1715649"
-    },
-    {
-        "Vaccine candidate": "AstraZeneca/Oxford",
-        "Developer Location": "United Kingdom/Sweden",
-        "Doses committed (in millions)": 56,
-        "Price (in USD million)": 29.92,
-        "Price/Dose (in USD)": 2.72,
-        "Notes": "Total order and price per dose based  are based on the Hindu Report. However, there are other reports (Reuters and Livemint reports from January) that suggest that number of doses ordered could be 11m.",
-        "Sources": "https://www.livemint.com/news/india/at-what-cost-is-govt-sourcing-serum-s-covishield-bharat-biotech-s-covaxin-explained-11610450615485.html ; https://www.reuters.com/article/health-coronavirus-vaccine-india/india-signs-purchase-order-with-serum-for-astrazeneca-vaccine-source-idUSKBN29G126 ; https://www.thehindu.com/news/national/vaccines-bought-first-using-pm-cares-funds-cost-centre-more/article34508997.ece"
-    },
-    {
-        "Vaccine candidate": "Bharat Biotech",
-        "Developer Location": "India",
-        "Doses committed (in millions)": 70,
-        "Price (in USD million)": 148.4,
-        "Price/Dose (in USD)": 2.12,
-        "Notes": "Two separate orders for 20m and 50m in March and April 2021. Confirmed in a press release in May 2021. Exchange rate used, 1INR = 0.013487 USD",
-        "Sources": "https://pib.gov.in/PressReleasePage.aspx?PRID=1715649"
-    },
-    {
-        "Vaccine candidate": "Bharat Biotech",
-        "Developer Location": "India",
-        "Doses committed (in millions)": 10,
-        "Timeline at time of deal": "Jan-21",
-        "Price (in USD million)": 22.71,
-        "Price/Dose (in USD)": 2.72,
-        "Notes": "Two separate orders reported for 5.5m in January 2021 and 4.5m in February 2021. 1.65m doses in January were given free of cost; this is reflected in the total cost of the agreement. The later 4.5m doses are also said to include 0.8m doses that were meant as donations to other countries. The initial price/dose reported in January was INR 295. However an RTI response by the Health Ministry in May 2021 suggests that the price/dose was reducted to match that of SII's AstraZeneca vaccine price at INR 210 (or USD 2.72).",
-        "Sources": "https://www.thehindu.com/business/Industry/bharat-biotech-begins-covaxin-supplies/article33566746.ece ; https://www.reuters.com/article/us-health-coronavirus-india-vaccine-idUSKBN2AI0MW ; https://www.thehindu.com/news/national/vaccines-bought-first-using-pm-cares-funds-cost-centre-more/article34508997.ece ; https://www.livemint.com/companies/news/bharat-bio-to-step-up-covaxin-output-11611102159125.html"
-    },
-    {
-        "Vaccine candidate": "Gamaleya",
-        "Developer Location": "Russian Federation",
-        "Doses committed (in millions)": 100,
-        "Price (in USD million)": 975,
-        "Price/Dose (in USD)": 9.75,
-        "Notes": "Doses are currently being imported of which 0.15m doses have been delivered. The total 100m doses are based on Dr Reddy's agreement with RDIF. Reuters has reported that the vaccine will be priced at USD 13.58. Price based on RDIF's statement that the vaccine is being sold in all markets for 9.75 USD/dose.",
-        "Sources": "https://www.reuters.com/world/india/pfizer-talks-with-india-over-expedited-approval-covid-19-vaccine-2021-05-03/ ; https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-get-36-mln-doses-sputnik-v-vaccine-next-few-months-2021-05-14/ ; https://www.ft.com/content/ffe40c7d-c418-4a93-a202-5ee996434de7"
-    },
-    {
-        "Vaccine candidate": "Corbevax",
-        "Developer Location": "India",
-        "Doses committed (in millions)": 300,
-        "Price (in USD million)": 205.60,
-        "Price/Dose (in USD)": 0.69,
-        "Notes": "Purchase order placed while vaccine is still in Phase 3 trials. Exchange rate based on Reuter's report.",
-        "Sources": "https://www.reuters.com/world/india/india-signs-deal-with-domestic-vaccine-maker-biological-e-300-mln-doses-2021-06-03/ ; https://www.livemint.com/news/india/govt-signs-first-advance-purchase-agreement-with-biological-e-worth-1-500-crore-11622708089645.html"
-    }
+  {
+    "Vaccine candidate": "AstraZeneca/Oxford",
+    "Developer Location": "United Kingdom/Sweden",
+    "Doses committed (in millions)": 460,
+    "Price (in USD million)": 445.2,
+    "Price/Dose (in USD)": 2.12,
+    "Notes": "Two separate orders for 20m and 50m in March and April 2021. Confirmed in a press release in May 2021. Exchange rate used, 1INR = 0.013487 USD",
+    "Sources": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1725339 ; https://www.newindianexpress.com/nation/2021/mar/16/centreplaces-new-purchase-order-with-serum-institute-of-india-for-10-crore-doses-of-covishield-vacc-2277418.html ; https://www.theguardian.com/world/2020/oct/20/india-at-heart-of-global-efforts-to-produce-covid-vaccine ; https://www.bloomberg.com/features/2020-covid-vaccine-serum-india/ ; https://pib.gov.in/PressReleasePage.aspx?PRID=1715649 ; https://www.livemint.com/news/india/centre-releases-revised-prices-of-covishield-covaxin-sputnik-jabs-for-pvt-hospitals-check-details-11623166137696.html"
+  },
+  {
+    "Vaccine candidate": "AstraZeneca/Oxford",
+    "Developer Location": "United Kingdom/Sweden",
+    "Doses committed (in millions)": 11,
+    "Price (in USD million)": 29.92,
+    "Price/Dose (in USD)": 2.72,
+    "Notes": "Total order and price per dose based  are based on the Hindu Report. However, there are other reports (Reuters and Livemint reports from January) that suggest that number of doses ordered could be 11m.",
+    "Sources": "https://www.livemint.com/news/india/at-what-cost-is-govt-sourcing-serum-s-covishield-bharat-biotech-s-covaxin-explained-11610450615485.html ; https://www.reuters.com/article/health-coronavirus-vaccine-india/india-signs-purchase-order-with-serum-for-astrazeneca-vaccine-source-idUSKBN29G126 ; https://www.thehindu.com/news/national/vaccines-bought-first-using-pm-cares-funds-cost-centre-more/article34508997.ece"
+  },
+  {
+    "Vaccine candidate": "Bharat Biotech",
+    "Developer Location": "India",
+    "Doses committed (in millions)": 260,
+    "Price (in USD million)": 551.2,
+    "Price/Dose (in USD)": 2.12,
+    "Notes": "Two separate orders for 20m and 50m in March and April 2021. Confirmed in a press release in May 2021. Exchange rate used, 1INR = 0.013487 USD",
+    "Sources": "https://pib.gov.in/PressReleasePage.aspx?PRID=1715649 ; https://www.pib.gov.in/PressReleasePage.aspx?PRID=1725339 ; https://www.livemint.com/news/india/centre-releases-revised-prices-of-covishield-covaxin-sputnik-jabs-for-pvt-hospitals-check-details-11623166137696.html"
+  },
+  {
+    "Vaccine candidate": "Bharat Biotech",
+    "Developer Location": "India",
+    "Doses committed (in millions)": 10,
+    "Timeline at time of deal": "Jan-21",
+    "Price (in USD million)": 22.71,
+    "Price/Dose (in USD)": 2.72,
+    "Notes": "Two separate orders reported for 5.5m in January 2021 and 4.5m in February 2021. 1.65m doses in January were given free of cost; this is reflected in the total cost of the agreement. The later 4.5m doses are also said to include 0.8m doses that were meant as donations to other countries. The initial price/dose reported in January was INR 295. However an RTI response by the Health Ministry in May 2021 suggests that the price/dose was reducted to match that of SII's AstraZeneca vaccine price at INR 210 (or USD 2.72).",
+    "Sources": "https://www.thehindu.com/business/Industry/bharat-biotech-begins-covaxin-supplies/article33566746.ece ; https://www.reuters.com/article/us-health-coronavirus-india-vaccine-idUSKBN2AI0MW ; https://www.thehindu.com/news/national/vaccines-bought-first-using-pm-cares-funds-cost-centre-more/article34508997.ece ; https://www.livemint.com/companies/news/bharat-bio-to-step-up-covaxin-output-11611102159125.html"
+  },
+  {
+    "Vaccine candidate": "Gamaleya",
+    "Developer Location": "Russian Federation",
+    "Doses committed (in millions)": 100,
+    "Price (in USD million)": 975,
+    "Price/Dose (in USD)": 9.75,
+    "Notes": "Doses are currently being imported of which 0.15m doses have been delivered. The total 100m doses are based on Dr Reddy's agreement with RDIF. Reuters has reported that the vaccine will be priced at USD 13.58. Price based on RDIF's statement that the vaccine is being sold in all markets for 9.75 USD/dose.",
+    "Sources": "https://www.reuters.com/world/india/pfizer-talks-with-india-over-expedited-approval-covid-19-vaccine-2021-05-03/ ; https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-get-36-mln-doses-sputnik-v-vaccine-next-few-months-2021-05-14/ ; https://www.ft.com/content/ffe40c7d-c418-4a93-a202-5ee996434de7"
+  },
+  {
+    "Vaccine candidate": "Corbevax",
+    "Developer Location": "India",
+    "Doses committed (in millions)": 300,
+    "Price (in USD million)": 205.6,
+    "Price/Dose (in USD)": 0.69,
+    "Notes": "Purchase order placed while vaccine is still in Phase 3 trials. Exchange rate based on Reuter's report.",
+    "Sources": "https://www.reuters.com/world/india/india-signs-deal-with-domestic-vaccine-maker-biological-e-300-mln-doses-2021-06-03/ ; https://www.livemint.com/news/india/govt-signs-first-advance-purchase-agreement-with-biological-e-worth-1-500-crore-11622708089645.html"
+  }
 ]
